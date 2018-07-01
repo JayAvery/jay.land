@@ -21,7 +21,7 @@
             <!-- Place favicon.ico in the root directory -->
 
             <!-- Styles and php -->
-            <link rel="stylesheet" href="/includes/normalize.css">
+            <link rel="stylesheet" href="/css/normalize.css">
 
 
             <!-- Page info -->
