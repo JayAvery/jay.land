@@ -12,6 +12,7 @@
     <main>
        
         <?php query_redirect(); ?>
+        
 
         
     </main>

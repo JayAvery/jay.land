@@ -13,6 +13,20 @@
        
         <?php query_redirect(); ?>
         
+        <h3 id="introduction">I write about being autistic.</h3>
+        
+        <section class="contents">
+            <ul>
+                <li>
+                    <h4 class="article"><a href="/autism/inclusive-autistic-traits">Inclusive Autistic Traits</a></h4>
+                    <p class="summary">This isn’t a set of diagnostic criteria, because I don’t know how to diagnose autism. It’s my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</p>
+                </li>
+                <li>
+                    
+                </li>
+            </ul>
+        </section>
+        
     </main>
     
     <?php foot(); ?>
