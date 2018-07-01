@@ -6,9 +6,9 @@ Options +FollowSymLinks
 RewriteEngine On
 
 # URLs with HTTP change to HTTPS
-#RewriteCond %{HTTPS} !=on
-#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
-# ^ uncomment this to push
+# # This section needs to be hidden when testing locally but included when pushing
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
 
 # URLs without file extension lead to the file
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -16,6 +16,6 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
 
 # URLs with www change to without
+# # This section needs to use http when testing locally but https when pushing
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
-# ^ add https to this to push

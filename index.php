@@ -1,22 +1,32 @@
 <!doctype html>
-<html class="no-js" lang="en-UK">
+<html lang="en-UK">
 
 <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121670751-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-121670751-1');
+    </script>
+
+    <!-- Basic info -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Jay Avery</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
-
+    
+    <!-- Styles and php -->
     <link rel="stylesheet" href="/includes/normalize.css">
     <!-- Include the main functions file from the root directory -->
     <?php
         include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
     ?>
+    
+    <!-- Page info -->
+    <title>Jay Avery</title>
+    <meta name="description" content="Jay Avery Homepage">
 </head>
 
 <body>
@@ -71,13 +81,6 @@
         </section>
         
     </main>
-  
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-        ga('create', 'UA-121670751-1', 'auto'); ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
