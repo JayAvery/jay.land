@@ -25,8 +25,8 @@
 
 
             <!-- Page info -->
-            <title><?php $title ?></title>
-            <meta name="description" content="<?php $description ?>">
+            <title><?php echo $title; ?></title>
+            <meta name="description" content="<?php echo $description; ?>">
         </head>
 
         <body>
