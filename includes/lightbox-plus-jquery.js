@@ -10306,7 +10306,7 @@ return jQuery;
     resizeDuration: 200, // default: 600
     showImageNumberLabel: false, // default: true
     wrapAround: true, // default: false
-    disableScrolling: true, // default: false
+    disableScrolling: false,
     /*
     Sanitize Title
     If the caption data is trusted, for example you are hardcoding it in, then leave this to false.
