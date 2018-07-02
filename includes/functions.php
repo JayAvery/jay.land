@@ -20,9 +20,9 @@
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <!-- Place favicon.ico in the root directory -->
 
-            <!-- Styles and php -->
-            <link rel="stylesheet" href="/css/normalize.css">
-
+            <!-- Styles -->
+            <link rel="stylesheet" href="/includes/normalize.css">
+            <link rel="stylesheet" href="/includes/lightbox.css">
 
             <!-- Page info -->
             <title><?php echo $title; ?></title>
@@ -83,15 +83,15 @@
         }
     }
 
-    /* Standard elements to end every page. */
-    function foot() {
-        ?>
-            <footer>
-                <ul>
-                    <li>© Jay Avery 2018</li>
-                    <li><a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a></li>
-                </ul>
-            </footer>
-        <?php    
+    /* Take a map of image numbers and captions and output a shuffled gallery of lightbox thumbnails. */
+    function gallery($images) {
+        
+        $numbers = array_keys($images);
+        shuffle($numbers);
+        
+        foreach($numbers as $number) {
+            
+            echo '<a href="/images/IMG_' . $number . '.JPG" data-lightbox="gallery" data-title="' . $images[$number] . '"><img class="thumb" src="/images/IMG_' . $number . '_T.JPG"/></a>';
+        }
     }
 ?>

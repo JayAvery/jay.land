@@ -5,7 +5,7 @@
     <!-- Include the main functions file from the root directory -->
     <?php
         include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
-        head("Autism", "Autism Articles");
+        head("Autism", "I write articles about being autistic.");
     ?>
 <!-- Ends <head> and starts <body> -->    
         
@@ -16,20 +16,20 @@
         <h3 id="introduction">I write about being autistic.</h3>
         
         <section class="contents">
-            <ul>
-                <li>
-                    <h4 class="article"><a href="/autism/inclusive-autistic-traits">Inclusive Autistic Traits</a></h4>
-                    <p class="summary">This isn’t a set of diagnostic criteria, because I don’t know how to diagnose autism. It’s my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</p>
-                </li>
-                <li>
-                    
-                </li>
-            </ul>
+            <article>
+                <h4 class="article"><a href="/autism/inclusive-autistic-traits">Inclusive Autistic Traits</a></h4>
+                <p class="summary">This isn’t a set of diagnostic criteria, because I don’t know how to diagnose autism. It’s my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</p>
+            </article>
         </section>
         
     </main>
     
-    <?php foot(); ?>
+    <footer>
+        <ul>
+            <li>© Jay Avery 2018</li>
+            <li><a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a></li>
+        </ul>
+    </footer>
     
 </body>
 </html>

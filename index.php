@@ -5,7 +5,7 @@
     <!-- Include the main functions file from the root directory -->
     <?php
         include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
-        head("Jay Avery", "Jay Avery Homepage");
+        head("Jay Avery", "Multi-purpose nerd. I like programming, science, nature, making things, and fictional characters.");
     ?>
 <!-- Ends <head> and starts <body> -->   
     
@@ -51,7 +51,12 @@
         
     </main>
     
-    <?php foot(); ?>
+    <footer>
+        <ul>
+            <li>© Jay Avery 2018</li>
+            <li><a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a></li>
+        </ul>
+    </footer>
     
 </body>
 </html>
