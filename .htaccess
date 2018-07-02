@@ -11,6 +11,7 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
 
 # Non-directory URLs with trailing slash change to without
+# # This section needs to use http when testing locally and https when pushing
 RewriteCond %{REQUEST_URI} ^(.*)/$
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%1 [R,L]

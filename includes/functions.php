@@ -64,6 +64,8 @@
         // Page link or error code
         if (!empty($page)) {
             
+            echo 'checking response code ' . http_response_code();
+            
             if (http_response_code() === 404) {
                 
                 echo ' &gt; 404';
