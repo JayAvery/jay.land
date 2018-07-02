@@ -29,7 +29,7 @@
         
         <a href="/images/IMG_4310.JPG" data-lightbox="gallery" data-title="Close-up of panel attached to frame"><img class="thumb" src="/images/IMG_4310_T.JPG"/></a>
         
-        <p>I didn't attach the top panel, so its weight keeps it there but it can still be removed. For two of the sides, I left the swivel pieces slightly loose on the frame which allows them to work as hinges. The result is that the cube can be arranged to have anything between three and six filled sides (or zero and three open sides). It only took a bit of trial and error to make holes in the other side panels to stop the bolts getting in the way of the folding.</p>
+        <p>I didn't attach the top panel, so its weight keeps it there but it can still be removed. For two of the sides, I left the swivel pieces slightly loose on the frame which allows them to work as hinges. The result is that the cube can be arranged to have anything between three and six solid sides (or between zero and three open sides). It only took a bit of trial and error to make holes in the other side panels to stop the bolts getting in the way of the folding.</p>
         
         <img class="gif" src="/images/cube-fast.gif"/>
         
