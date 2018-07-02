@@ -5,18 +5,19 @@
     <!-- Include the main functions file from the root directory -->
     <?php
         include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
-        head("Photography", "Photographs of British wildlife and remains");
+        head("Creative", "Articles and pictures of my creative projects");
     ?>
 <!-- Ends <head> and starts <body> -->    
         
     <main>
     
-        <h3 id="introduction">I take photos of my wildlife adventures.</h3>
+                
+        <h3 id="introduction">I make things a lot.</h3>
         
         <section class="contents">
             <article>
-                <h4 class="article"><a href="/photography/living">Living</a></h4>
-                <p class="summary">Photographs of live British wildlife.</p>
+                <h4 class="article"><a href="/creative/humancube">The Humancube</a></h4>
+                <p class="summary">I made a weird piece of furniture.</p>
             </article>
         </section>
         
@@ -26,6 +27,7 @@
         <ul>
             <li>Page updated 2018-07-02</li>
             <li>© Jay Avery 2018</li>
-
+            
     <?php foot(); ?>
+
 </html>

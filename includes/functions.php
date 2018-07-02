@@ -94,4 +94,22 @@
             echo '<a href="/images/IMG_' . $number . '.JPG" data-lightbox="gallery" data-title="' . $images[$number] . '"><img class="thumb" src="/images/IMG_' . $number . '_T.JPG"/></a>';
         }
     }
+
+    /* Standard elements to end every page. */
+    function foot() {
+        ?>
+        
+        <!-- Continuing <body> -->
+            <!-- Continuing <footer> -->
+                <!-- Continuing <ul> -->
+                    <li><a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a></li>
+                    <li><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox</a></li>
+                </ul>
+            </footer>
+    
+        <script src="/includes/lightbox-plus-jquery.js"></script>
+        </body>
+
+        <?php
+    }
 ?>

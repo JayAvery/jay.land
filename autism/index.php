@@ -26,10 +26,8 @@
     
     <footer>
         <ul>
+            <li>Page updated 2018-07-02</li>
             <li>© Jay Avery 2018</li>
-            <li><a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a></li>
-        </ul>
-    </footer>
-    
-</body>
+            
+    <?php foot(); ?>
 </html>

@@ -50,13 +50,8 @@
     
     <footer>
         <ul>
+            <li>Page updated 2018-07-02</li>
             <li>© Jay Avery 2018</li>
-            <li><a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a></li>
-            <li><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox</a></li>
-        </ul>
-    </footer>
-    
-    <script src="/includes/lightbox-plus-jquery.js"></script>
-    
-</body>
+
+    <?php foot(); ?>
 </html>

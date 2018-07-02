@@ -366,10 +366,8 @@
         
     <footer>
         <ul>
+            <li>Page updated 2018-07-02</li>
             <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Inclusive Autistic Traits</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jay.land/autism/inclusive-autistic-traits" property="cc:attributionName" rel="cc:attributionURL">Jay Avery</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</li>
-            <li><a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a></li>
-        </ul>
-    </footer>
-    
-</body>
+
+    <?php foot(); ?>
 </html>
