@@ -55,13 +55,13 @@
         $folder_name = str_replace('-', ' ', trim($folder_path, '/'));
         $page = str_replace('-', ' ', trim($url['filename'], '/'));
 
-        // Category link
-        if (!empty($folder_name)) {
+        // Category link if not 404
+        if ((!empty($folder_name)) && (http_response_code() !== 404) {
 
             echo ' &gt; <a href="' . $folder_path . '" title="Category">' . $folder_name . '</a>';
         }    
 
-        // Page link or error code
+        // Page link or 404
         if (!empty($page)) {
                         
             if (http_response_code() === 404) {
