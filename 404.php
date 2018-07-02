@@ -5,6 +5,7 @@
     <!-- Include the main functions file from the root directory -->
     <?php
         include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
+        http_response_code(404);
         head("404", "There's nothing here.");
     ?>
 <!-- Ends <head> and starts <body> -->    
