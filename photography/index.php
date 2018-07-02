@@ -18,6 +18,10 @@
                 <h4 class="article"><a href="/photography/living">Living</a></h4>
                 <p class="summary">Photographs of live British wildlife.</p>
             </article>
+            <article>
+            	<h4 class="article"><a href="/photography/remains">Remains</a></h4>
+            	<p class="summary">Photographs of wild collected bones.</p>
+            </article>
         </section>
         
     </main>
