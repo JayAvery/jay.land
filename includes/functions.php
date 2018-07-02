@@ -61,10 +61,17 @@
             echo ' &gt; <a href="' . $folder_path . '" title="Category">' . $folder_name . '</a>';
         }    
 
-        // Page link
+        // Page link or error code
         if (!empty($page)) {
+            
+            if (http_response_code() === 404) {
+                
+                echo ' &gt; 404';
+                
+            } else {
 
-            echo ' &gt; <a href="" title="Current page">' . $page . '</a>';
+                echo ' &gt; <a href="" title="Current page">' . $page . '</a>';
+            }
         }
 
         // Close heading

@@ -10,6 +10,11 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
 
+# Non-directory URLs with trailing slash change to without
+RewriteCond %{REQUEST_URI} ^(.*)/$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%1 [R,L]
+
 # URLs without file extension lead to the file
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
