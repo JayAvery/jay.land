@@ -7,14 +7,14 @@ RewriteEngine On
 
 # URLs with HTTP change to HTTPS
 # # This section needs to be hidden when testing locally and included when pushing
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
 
 # Non-directory URLs with trailing slash change to without
 # # This section needs to use http when testing locally and https when pushing
 RewriteCond %{REQUEST_URI} ^(.*)/$
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%1 [R,L]
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%1 [R,L]
 
 # URLs without file extension lead to the file
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -24,7 +24,7 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 # URLs with www change to without
 # # This section needs to use http when testing locally and https when pushing
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ https://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
 
 # Set up not found page
 ErrorDocument 404 /404

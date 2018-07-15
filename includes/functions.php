@@ -1,7 +1,12 @@
 <?php
 
+    $colours = array('#3fce13');
+
     /* Standard elements to start every page. */
     function head($title, $description) {
+        
+        global $colours;
+        
         ?>
 
         <!-- Continuing <head> -->
@@ -20,9 +25,17 @@
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <!-- Place favicon.ico in the root directory -->
 
-            <!-- Styles -->
+            <!-- Styles and fonts -->
             <link rel="stylesheet" href="/includes/normalize.css">
             <link rel="stylesheet" href="/includes/lightbox.css">
+            <link rel="stylesheet" href="/includes/style.css">
+            <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,700" rel="stylesheet">
+            <style>
+                :root {
+                    --links: <?php echo $colours[array_rand($colours)]; ?>
+                }
+            </style>
 
             <!-- Page info -->
             <title><?php echo $title; ?></title>
@@ -35,47 +48,40 @@
             <![endif]-->
 
             <header>
-                <?php breadcrumb(); ?>
+                
+                <?php 
+                // Open heading
+		        echo '<h2 id="breadcrumb">';
+		        // Homepage link
+		        echo '<a href="/" title="Home">Jay Avery</a>';
+		        
+		        // Get path and page names and addresses
+		        $url = pathinfo(strtok($_SERVER['REQUEST_URI'], '?'));
+		        $folder_path = $url['dirname'];
+		        $folder_name = ucwords(str_replace('-', ' ', trim($folder_path, '/')));
+		
+		        // Category link if not 404
+		        if ((!empty($folder_name)) && (http_response_code() !== 404)) {
+		
+		            echo ' &gt; <a href="' . $folder_path . '" title="Category">' . $folder_name . '</a>';
+		        }    
+		
+		        // Page link or 404
+	            if (http_response_code() === 404) {
+	                
+	                echo ' &gt; 404';
+	                
+	            } else {
+	
+	                echo ' &gt; <a href="" title="Current page">' . $title . '</a>';
+	            }
+		
+		        // Close heading
+		        echo ' &gt; </h2>';
+                ?>
+                
             </header>
-
         <?php
-    }
-
-    /* Build a breadcrumb title section for the current page. */
-    function breadcrumb() {
-        
-        // Open heading
-        echo '<h2 id="breadcrumb">';
-        // Homepage link
-        echo '<a href="/" title="Home">Jay Avery</a>';
-        
-        // Get path and page names and addresses
-        $url = pathinfo(strtok($_SERVER['REQUEST_URI'], '?'));
-        $folder_path = $url['dirname'];
-        $folder_name = str_replace('-', ' ', trim($folder_path, '/'));
-        $page = str_replace('-', ' ', trim($url['filename'], '/'));
-
-        // Category link if not 404
-        if ((!empty($folder_name)) && (http_response_code() !== 404)) {
-
-            echo ' &gt; <a href="' . $folder_path . '" title="Category">' . $folder_name . '</a>';
-        }    
-
-        // Page link or 404
-        if (!empty($page)) {
-                        
-            if (http_response_code() === 404) {
-                
-                echo ' &gt; 404';
-                
-            } else {
-
-                echo ' &gt; <a href="" title="Current page">' . $page . '</a>';
-            }
-        }
-
-        // Close heading
-        echo ' &gt; </h2>';
     }
 
     /* Add a section if the page was reached from an ?autisticality query URL (a redirect). */
@@ -115,6 +121,8 @@
             </footer>
     
         <script src="/includes/lightbox-plus-jquery.js"></script>
+
+        </main>
         </body>
 
         <?php
