@@ -9,7 +9,7 @@
     ?>
 <!-- Ends <head> and starts <body> -->   
     
-    <main>
+    <main class="narrow">
                         
         <h3 id="introduction">I'm Jay, a multi-purpose nerd. <br> I like programming, science, nature, making things, and fictional characters.</h3>
         
@@ -22,7 +22,7 @@
         </section>
         
         <section id="follow">
-            <h4 class="section">Follow me for news, wildlife, my&nbsp;rabbit, and general nerd talk</h4>
+            <h4 class="section">Follow me for project updates, wildlife, my&nbsp;rabbit, and general nerd talk</h4>
             <ul>
                 <li>Follow me for more nerd talk on <a href="https://twitter.com/_jayavery" title="Twitter profile">Twitter</a>.</li>
                 <li>Follow me for more pictures on <a href="https://www.instagram.com/_jayavery/" title="Instagram profile">Instagram</a>.</li>
@@ -54,12 +54,7 @@
                 <li>Send cash through <a href="paypal.me/jayvery" title="PayPal me">PayPal</a>.</li>
             </ul>
         </section>
-        
-    
-    <footer>
-        <ul>
-            <li>Page updated 2018-07-02</li>
-            <li>© Jay Avery 2018</li>
+    </main>  
 
     <?php foot(); ?>
 </html>

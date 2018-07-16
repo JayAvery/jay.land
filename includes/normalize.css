@@ -9,7 +9,7 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
+  line-height: 0;  /* Had to change this [from 1.15] to fix something weird about image galleries with <a>s???? */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 

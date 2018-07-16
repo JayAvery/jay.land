@@ -1,6 +1,6 @@
 <?php
 
-    $colours = array('#3fce13');
+    $colours = array('#00c8cc');
 
     /* Standard elements to start every page. */
     function head($title, $description) {
@@ -29,7 +29,7 @@
             <link rel="stylesheet" href="/includes/normalize.css">
             <link rel="stylesheet" href="/includes/lightbox.css">
             <link rel="stylesheet" href="/includes/style.css">
-            <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Muli:400,800" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,700" rel="stylesheet">
             <style>
                 :root {
@@ -53,32 +53,33 @@
                 // Open heading
 		        echo '<h2 id="breadcrumb">';
 		        // Homepage link
-		        echo '<a href="/" title="Home">Jay Avery</a>';
+		        echo '<a href="/" title="Home">Jay Avery</a> &gt; ';
 		        
 		        // Get path and page names and addresses
 		        $url = pathinfo(strtok($_SERVER['REQUEST_URI'], '?'));
 		        $folder_path = $url['dirname'];
 		        $folder_name = ucwords(str_replace('-', ' ', trim($folder_path, '/')));
 		
-		        // Category link if not 404
-		        if ((!empty($folder_name)) && (http_response_code() !== 404)) {
+                // 404 page
+                if (http_response_code() === 404) {
+                    
+                    echo '404';
+                    
+                // Page and category
+                } else if (!empty($folder_name)) {
 		
-		            echo ' &gt; <a href="' . $folder_path . '" title="Category">' . $folder_name . '</a>';
-		        }    
+		            echo '<a href="' . $folder_path . '" title="Category">' . $folder_name . '</a> &gt; ';
+                    echo '<a href="" title="Current page">' . $title . '</a>';
+                    
+                // Category page
+		        } else if ('Jay Avery' != $title) {
+                    
+                    echo '<a href="" title="Current page">' . $title . '</a> &gt;';
+                }
 		
-		        // Page link or 404
-	            if (http_response_code() === 404) {
-	                
-	                echo ' &gt; 404';
-	                
-	            } else {
-	
-	                echo ' &gt; <a href="" title="Current page">' . $title . '</a>';
-	            }
-		
-		        // Close heading
-		        echo ' &gt; </h2>';
                 ?>
+                
+                <h2 id="email"><a href="mailto:me@jay.land" title="New email">@</a></h2>
                 
             </header>
         <?php
@@ -113,16 +114,13 @@
         ?>
         
         <!-- Continuing <body> -->
-            <!-- Continuing <footer> -->
-                <!-- Continuing <ul> -->
-                    <li><a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a></li>
-                    <li><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox</a></li>
-                </ul>
+            <footer>
+                <p id="left-foot"><span>Built with help from <a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a>, <a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox</a>, and <a href="https://samdraws.com/" title="Sam Draws">Sam Rowe</a>.</span></p>
+                <p id="right-foot"><span>© Jay Avery 2018</span></p>
             </footer>
     
         <script src="/includes/lightbox-plus-jquery.js"></script>
 
-        </main>
         </body>
 
         <?php

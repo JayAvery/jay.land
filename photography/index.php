@@ -9,27 +9,21 @@
     ?>
 <!-- Ends <head> and starts <body> -->    
         
-    <main>
+    <main class="narrow">
     
         <h3 id="introduction">I take photos of my wildlife adventures.</h3>
         
-        <section class="contents">
-            <article>
-                <h4 class="article"><a href="/photography/living">Living</a></h4>
-                <p class="summary">Photographs of live British wildlife.</p>
-            </article>
-            <article>
-            	<h4 class="article"><a href="/photography/remains">Remains</a></h4>
-            	<p class="summary">Photographs of wild collected bones.</p>
-            </article>
+        <a class="article" href="/photography/living"><section>
+            <h4>Living</h4>
+            <p>Photographs of live British wildlife.</p>
+            <img class="gallery-thumb" src="/images/IMG_0547_T.jpg">
+        </section></a>
+        <section>
+            <h4><a href="/photography/remains">Remains</a></h4>
+            <p>Photographs of wild collected bones.</p>
         </section>
         
     </main>
     
-    <footer>
-        <ul>
-            <li>Page updated 2018-07-02</li>
-            <li>© Jay Avery 2018</li>
-
     <?php foot(); ?>
 </html>

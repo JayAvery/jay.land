@@ -9,7 +9,7 @@
     ?>
 <!-- Ends <head> and starts <body> -->   
     
-    <main>
+    <main class="narrow">
        
         <?php query_redirect(); ?>
         
@@ -18,7 +18,7 @@
             
             <p>Autism is big and messy and confusing, and no-one really understands it. It's difficult to make a good summary and description of autistic traits, because generally no-one can agree on what autism actually is. But even taking that into account, I've never read a satisfactory article or leaflet summarising and describing autistic traits. Every description I've ever read suffered from at least one of these problems:</p>
             
-            <ul>
+            <ul class="spaced-list">
 	           <li><em>Wrongly weighted</em>. So many descriptions of autism written by neurotypical people focus completely on social traits. Often autism is described as an entirely social thing, and any other differences are considered incidental if they're mentioned at all.</li>
                 
 	           <li><em>Vague</em>. The "triad of impairments" is the worst offender here. It divides social traits arbitrarily into "interaction", "communication", and "imagination", but there is absolutely no clear distinction between those categories. They're meaningless and useless divisions that don't remotely simplify the description, and so they serve no useful purpose - they just add confusion.</li>
@@ -361,13 +361,13 @@
 
             <p>I'd love for people to use this list, or descriptions based on it, in place of the triad of impairments and other flawed summaries. I have given this work a Creative Commons license that means anyone has permission to use, share, and modify it - as long as you credit me, don't sell it for money, and use the same license rules on your own versions.</p>
         </section>
+        
+        <section id="creative-commons">
+            <p id="cc-text"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Inclusive Autistic Traits</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jay.land/autism/inclusive-autistic-traits" property="cc:attributionName" rel="cc:attributionURL">Jay Avery</a> is licensed under a <em>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</em> - <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">view here</a>.</p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="cc-icon" alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+        </section>
                 
     </main>
         
-    <footer>
-        <ul>
-            <li>Page updated 2018-07-02</li>
-            <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Inclusive Autistic Traits</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jay.land/autism/inclusive-autistic-traits" property="cc:attributionName" rel="cc:attributionURL">Jay Avery</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</li>
 
-    <?php foot(); ?>
+    <?php foot(''); ?>
 </html>
