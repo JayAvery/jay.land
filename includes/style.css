@@ -1,5 +1,9 @@
+:root {
+    --bullet: rgba(0, 0, 0, 0.13);
+}
+
 body {
-    background: #f2f2f2;
+    background: hsl(0, 0%, 93%);
 }
 
 main.narrow {
@@ -16,6 +20,8 @@ main.wide {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 55px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,6 +29,19 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5em;
     margin-bottom: 18px;
     margin-top: 0;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 h4 {
@@ -38,17 +57,17 @@ h3 {
 h2 {
     font-size: 24px;
     font-weight: 900;
-    color: #CCCCCC;
+    color: var(--bullet, grey);
 }
 
-ul {
+ul, ol {
     font-size: 18px;
     font-family: 'Muli', sans-serif;
     line-height: 1.5em;
-    list-style-type: none;
     padding-left: 51px;
-    margin-top: 0;
+    margin-top: 18px;
     margin-bottom: 0;
+    list-style-type: none;
 }
 
 p {
@@ -57,8 +76,27 @@ p {
     line-height: 1.5em;
 }
 
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul.spaced-list, ol.spaced-list {
+    padding-left: 22px;
+}
+
 .spaced-list li {
-    padding-bottom: 18px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul.spaced-list > li::before {
+    padding-right: 30px;
+    margin-left: -41px;
+}
+
+ol.spaced-list > li::before {
+    padding-right: 19px;
+    margin-left: -41px;
 }
 
 li {
@@ -66,12 +104,31 @@ li {
 }
 
 li::before {
-    content: '>';
     padding-right: 40px;
     margin-left: -51px;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 900;
-    color: #DDDDDD;
+    color: var(--bullet, grey);
+}
+
+ul > li::before {
+    content: '>';
+}
+
+ol > li::before {
+    content: counter(item) '.';
+}
+
+ol ol > li::before{
+    content: counter(item, lower-alpha) '.';
+}
+
+ol {
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
 }
 
 section {
@@ -97,7 +154,7 @@ a:hover {
 }
 
 footer {
-    background-color: #EAEAEA;
+    background-color: hsl(0, 0%, 89%);
     padding: 40px;
 }
 
@@ -111,7 +168,7 @@ footer p {
 
 header {
     padding: 35px 40px 40px 40px;
-    background-color: #EAEAEA;
+    background-color: hsl(0, 0%, 89%);
 }
 
 header h2 {
@@ -131,6 +188,16 @@ h2 a {
 h2 a:hover {
     border-bottom: none;
     color: var(--links, black);
+}
+
+.gallery {
+    border-top: none;
+}
+
+main.wide #introduction {
+    border-bottom: 2px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .gallery-thumb {
@@ -169,6 +236,13 @@ figure a {
     border-bottom: none;
     line-height: 0;
     
+}
+
+img.embedded {
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 11px;
+    margin-bottom: 11px;
 }
 
 .gallery img {

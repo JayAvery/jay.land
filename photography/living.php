@@ -10,10 +10,12 @@
 <!-- Ends <head> and starts <body> -->    
         
     <main class="wide">
+        
+        <h3 id="introduction">Photographs of British wildlife.</h3>
     
         <section class="gallery">
             
-<figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure>
+<figure><a href="/images/IMG_4837.JPG" title="Collared dove in flightsdfibuhaiubrsiuthbosiuthbosiuhbsiuhbsoi sohsi hosh ofh oifhg osifgh osifhg osihfg osig soih"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure>
             
             
             <?php /*
@@ -51,10 +53,14 @@
         
     </main>
     
-    <footer>
-        <ul>
-            <li>Page updated 2018-07-02</li>
-            <li>© Jay Avery 2018</li>
+            <script> 
+                $(function(){
+                    var $gallery = $('.gallery figure a').simpleLightbox();
+                });
+            </script>
+    
 
     <?php foot(); ?>
+            
+
 </html>

@@ -33,6 +33,8 @@
             <h4 class="section">Solutions</h4>
             
             <p>So, I've written my own. This isn't a set of diagnostic criteria, because I don't know how to diagnose autism. It's my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</p>
+            
+            <img class="embedded" src="/images/IMG_0547.jpg">
 
             <p>A lot of the things I've written feature directly opposite examples, like "may hate X" and "may love X". This isn't a mistake, it's a reflection of how varied autistic people can be. Often, autistic people occupy extreme ends of the bell curve in any trait - but not necessarily the same end. Because I wrote this list to be inclusive, no autistic person will have every trait on it. That would be impossible, since many of them are mutually exclusive!</p>
 
@@ -44,26 +46,26 @@
 
             <p>With all that covered, let me get to the actual list. It's divided into three broad categories of traits: social, sensory, and cognitive. These divisions are not perfect, but they're the best way I've found of categorising, and they make it easier to understand the list. Each category is divided into sections (numbers) and subsections (letters), which each contain a list of specific example traits.</p>
 
-            <h5 class="subsection">Social</h5>
-            <ol>
+            <h6 class="subsection">Social</h6>
+            <ol class="spaced-list">
                 <li>Differences in body language and nonverbal communication.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Different use of eye contact.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May use eye contact more or less frequently than others.</li>
                                 <li>May use eye contact only in specific situations (e.g. only with familiar people, or only with strangers).</li>
                                 <li>May use eye contact in different ways or at different times than others.</li>
                             </ul>
                         </li>
                         <li>Different use of vocal tone.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May use less variation in tone than others, or not use tone deliberately to add meaning.</li>
                                 <li>May use more variation in tone than others, or have a 'sing-song' quality to speech.</li>
                                 <li>May speak more loudly or quietly than others.</li>
                             </ul>
                         </li>
                         <li>Different use of gestures and body language.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May use fewer gestures than others.</li>
                                 <li>May not use body language deliberately to communicate.</li>
                                 <li>May use different types of body language than others to communicate.</li>
@@ -71,7 +73,7 @@
                             </ul>
                         </li>
 	                    <li>D. Different use of facial expressions.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May use less variation in facial expression than others.</li>
                                 <li>May not deliberately use facial expressions to communicate.</li>
                                 <li>May use different types of facial expressions from others.</li>
@@ -81,9 +83,9 @@
                     </ol>
                 </li>
 	           <li>Differences in verbal communication.
-                   <ol>
+                   <ol class="spaced-list">
                         <li>Different use of literal and metaphorical communication.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May use entirely literal language.</li>
                                 <li>May use unusual types of metaphor and analogy.</li>
                                 <li>May focus on precision and accuracy in words used.</li>
@@ -91,7 +93,7 @@
                             </ul>
                         </li>
                         <li>Different use of speech.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have difficulty speaking in certain situations, such as under stress.</li>
                                 <li>May not use words at all.</li>
                                 <li>May use echolalia (repeating specific words or phrases) to communicate.</li>
@@ -102,9 +104,9 @@
                     </ol>
                 </li>
                 <li>Differences in interaction and relationships.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Different desire for relationships.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May not want or need social relationships much or at all.</li>
                                 <li>May want specific types of relationships but not others.</li>
                                 <li>May form unusual types of relationship dynamic or be less bound by social norms.</li>
@@ -112,7 +114,7 @@
                             </ul>
                         </li>
                         <li>Different preferences for groups.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May need one-to-one interactions and struggle in larger groups.</li>
                                 <li>May need larger group interactions and struggle one-to-one.</li>
                                 <li>May need more structure and rules in group interactions.</li>
@@ -120,14 +122,14 @@
                             </ul>
                         </li>
                         <li>Different preferences for interactions.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May prefer practical and pragmatic interactions or have difficulty with unfocused interactions.</li>
                                 <li>May not be able to focus on interacting at the same time as other activities or inputs.</li>
                                 <li>May prefer parallel interactions or have difficulty with direct interactions.</li>
                             </ul>
                         </li>
                         <li>Different social instincts to other people.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have trouble communicating with others, especially non-autistic people.</li>
                                 <li>May be drawn towards other autistic people for relationships.</li>
                                 <li>May be socially outcast by others.</li>
@@ -138,26 +140,26 @@
                 </li>
             </ol>
 
-            <h5 class="subsection">Sensory</h5>
-            <ol>
+            <h6 class="subsection">Sensory</h6>
+            <ol class="spaced-list">
                 <li>Differences in sensory sensitivity.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Over-sensitivity to certain senses or specific sensations (e.g. bright lights, specific textures, strong smells, loud noises).
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May experience pain at sensations which others do not strongly react to.</li>
                                 <li>May become ill or uncomfortable at sensations which others do not strongly react to.</li>
                                 <li>May be distressed and want to avoid or escape sensations which others do not strongly react to.</li>
                             </ul>
                         </li>
                         <li>Under-sensitivity to certain senses or specific sensations (e.g. pain, temperature, taste).
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May not notice sensations which others usually react to.</li>
                                 <li>May not be able to distinguish between sensations which others usually can.</li>
                                 <li>May need more intense input in a certain sensation than others usually do.</li>
                             </ul>
                         </li>
                         <li>Narrower comfortable range of certain senses or specific sensations.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May struggle to find a comfortable intensity of input.</li>
                                 <li>May easily become over- and under-sensitive to certain sensations.</li>
                                 <li>May need very particular type or intensity of input.</li>
@@ -166,45 +168,45 @@
                     </ol>
                 </li>
                 <li>Strong enjoyment, desire, or need for certain types of sensory input. Demonstrated by stimming (self-stimulation) behaviour.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Visual stimming.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May stare at certain lights, patterns, shapes or colours.</li>
                                 <li>May stare at certain moving objects, changing or flashing lights.</li>
                             </ul>
                         </li>
                         <li>Pressure stimming.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May apply pressure from weighted objects.</li>
                                 <li>May sit or lay in postures which apply pressure from body weight.</li>
                             </ul>
                         </li>
                         <li>Vestibular stimming.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May move in certain ways like rocking or spinning.</li>
                                 <li>May seek activities which involve swinging, fast acceleration, or other types of movement.</li>
                             </ul>
                         </li>
                         <li>Proprioceptive stimming.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May move body in specific ways such as hand flapping, waving, twirling hair.</li>
                                 <li>May touch and hold onto objects and surroundings.</li>
                             </ul>
                         </li>
                         <li>Tactile stimming.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May be drawn to the feeling of particular objects or textures.</li>
                                 <li>May stroke or rub objects against certain body parts like hands and face.</li>
                             </ul>
                         </li>
                         <li>Auditory stimming.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May use mouth, voice, and body to make particular sounds.</li>
                                 <li>May use objects to make particular sounds.</li>
                             </ul>
                         </li>
                         <li>Other types of stimming.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May be very drawn to specific smells, tastes, or other sensations.</li>
                                 <li>May be very drawn to particular intense sensory experiences (e.g. spicy food).</li>
                                 <li>May stim in ways which combine multiple different types of sensation.</li>
@@ -213,22 +215,22 @@
                     </ol>
                 </li>
                 <li>Other differences in sensory processing.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Different ways of processing multiple or combined sensations.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have difficulty separating sensory experiences into individual parts.</li>
                                 <li>May have difficulty combining individual parts into one sensory experience.</li>
                             </ul>
                         </li>
                         <li>Difficulty with sensory modulation.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have difficulty attending to relevant stimuli.</li>
                                 <li>May have difficulty tuning out irrelevant stimuli.</li>
                                 <li>May need a controlled environment with few sensory inputs at the same time.</li>
                             </ul>
                         </li>
                         <li>Other specific differences or difficulties in processing.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have trouble understanding or decoding speech (auditory processing disorder).</li>
                                 <li>May have blending or merging of different senses (synaesthesia).</li>
                             </ul>
@@ -237,12 +239,12 @@
                 </li>
             </ol>
             
-            <h5 class="subsection">Cognitive</h5>
-            <ol>
+            <h6 class="subsection">Cognitive</h6>
+            <ol class="spaced-list">
                 <li>Strength of focus and rigidity.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Intense focus and interests.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May spend the majority of time focused on few specific interests.</li>
                                 <li>May concentrate on certain topics or activities for long periods of time.</li>
                                 <li>May have strong emotional attachment to interest topics.</li>
@@ -250,7 +252,7 @@
                             </ul>
                         </li>
                         <li>Preference for routine and sameness.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have specific routines for days, weeks, or certain activities.</li>
                                 <li>May be distressed and disoriented when routines or plans are disrupted.</li>
                                 <li>May need to plan things carefully in advance.</li>
@@ -260,9 +262,9 @@
                     </ol>
                 </li>
                 <li>Difference in cognitive abilities.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Differences in executive function.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have strengths or weaknesses in one or more types of memory (e.g. short-term, long-term).</li>
                                 <li>May have difficult planning and executing a series of steps or actions.</li>
                                 <li>May have difficulty identifying and solving problems.</li>
@@ -273,7 +275,7 @@
                             </ul>
                         </li>
                         <li>Differences in experiencing and processing emotions.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May mistake physical sensations for emotions, and vice-versa.</li>
                                 <li>May have difficulty identifying or naming emotions (alexithymia).</li>
                                 <li>May have difficulty recognising or understanding others' emotions.</li>
@@ -281,7 +283,7 @@
                             </ul>
                         </li>
                         <li>Different spread of cognitive skills.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have slower processing speed than others.</li>
                                 <li>May have extreme strength in specific areas (e.g. nonverbal reasoning, language, music, mathematics).</li>
                                 <li>May have face-blindness (prosopagnosia).</li>
@@ -291,9 +293,9 @@
                     </ol>
                 </li>
                 <li>Difference in thinking styles.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Different approach to details.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have a strong tendency to notice details before, or instead of, overall 'big picture'.</li>
                                 <li>May have a strong tendency to notice overall 'big picture' before, or instead of, details.</li>
                                 <li>May have difficulty creating examples from a general idea.</li>
@@ -301,7 +303,7 @@
                             </ul>
                         </li>
                         <li>Different approach to patterns and systems.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May be skilled in recognising patterns.</li>
                                 <li>May be skilled in identifying minor details and errors.</li>
                                 <li>May be skilled in systemising subjects such as mathematics, science, puzzles, languages.</li>
@@ -309,7 +311,7 @@
                             </ul>
                         </li>
                         <li>Different ways of processing and making decisions.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have a tendency for 'black-and-white' thinking and logical extremes.</li>
                                 <li>May have a strong preference for particular ways of reasoning (e.g. logic, emotion).</li>
                                 <li>May seem to think 'outside the box' or reach conclusions in different ways to others.</li>
@@ -319,18 +321,18 @@
                 </li>
             </ol>
             
-            <h5 class="subsection">Variation</h5>
-            <ol>
+            <h6 class="subsection">Variation</h6>
+            <ol class="spaced-list">
                 <li>Variation of traits.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Long-term variation.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May change throughout development from childhood to adulthood.</li>
                                 <li>May change over years during adulthood.</li>
                             </ul>
                         </li>
                         <li>Environment.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May be more sensitive to overload when already stressed, ill, or tired.</li>
                                 <li>May use different social behaviour depending on social situation.</li>
                             </ul>
@@ -338,15 +340,15 @@
                     </ol>
                 </li>
                 <li>Variation of presentation.
-                    <ol>
+                    <ol class="spaced-list">
                         <li>Conscious variation.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May deliberately mask traits in certain situations.</li>
                                 <li>May use learned rules to replace instincts.</li>
                             </ul>
                         </li>
                         <li>Unconscious variation.
-                            <ul>
+                            <ul class="spaced-list">
                                 <li>May have learned masking behaviour from early childhood.</li>
                                 <li>May have trauma or mental illness which affects presentation of traits.</li>
                             </ul>

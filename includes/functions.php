@@ -1,6 +1,6 @@
 <?php
 
-    $colours = array('#00c8cc');
+    $colours = array('#00c8cc', '#d5a7ff', '#a2adff', '#89ccff', '#b9d7a0', '#ebcd29', '#75c471', '#cd9ee0', '#b8d23f', '#7db9eb', '#f1ae72');
 
     /* Standard elements to start every page. */
     function head($title, $description) {
@@ -27,7 +27,8 @@
 
             <!-- Styles and fonts -->
             <link rel="stylesheet" href="/includes/normalize.css">
-            <link rel="stylesheet" href="/includes/lightbox.css">
+         <!--   <link rel="stylesheet" href="/includes/lightbox.css"> -->
+            <link rel="stylesheet" href="/includes/simplelightbox.css">
             <link rel="stylesheet" href="/includes/style.css">
             <link href="https://fonts.googleapis.com/css?family=Muli:400,800" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,700" rel="stylesheet">
@@ -36,6 +37,12 @@
                     --links: <?php echo $colours[array_rand($colours)]; ?>
                 }
             </style>
+
+            
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
 
             <!-- Page info -->
             <title><?php echo $title; ?></title>
@@ -115,11 +122,13 @@
         
         <!-- Continuing <body> -->
             <footer>
-                <p id="left-foot"><span>Built with help from <a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a>, <a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox</a>, and <a href="https://samdraws.com/" title="Sam Draws">Sam Rowe</a>.</span></p>
+                <p id="left-foot"><span>Built with help from <a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a>, <a href="http://simplelightbox.com/">Simple Lightbox</a>, and <a href="https://samdraws.com/" title="Sam Draws">Sam Rowe</a>.</span></p>
                 <p id="right-foot"><span>© Jay Avery 2018</span></p>
             </footer>
     
-        <script src="/includes/lightbox-plus-jquery.js"></script>
+      <!--  <script src="/includes/lightbox-plus-jquery.js"></script> -->
+            
+            <script src="/includes/simple-lightbox.js"></script>
 
         </body>
 
