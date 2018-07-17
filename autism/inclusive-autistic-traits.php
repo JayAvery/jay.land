@@ -286,7 +286,7 @@
                             <ul class="spaced-list">
                                 <li>May have slower processing speed than others.</li>
                                 <li>May have extreme strength in specific areas (e.g. nonverbal reasoning, language, music, mathematics).</li>
-                                <li>May have face-blindness (prosopagnosia).</li>
+                                <li>May have face-blindness (prosopagnosia).</li>
                                 <li>May have skills which vary more than others over time.</li>
                             </ul>
                         </li>

@@ -60,7 +60,7 @@
                 // Open heading
 		        echo '<h2 id="breadcrumb">';
 		        // Homepage link
-		        echo '<a href="/" title="Home">Jay Avery</a> &gt; ';
+		        echo '<span class="breadcrumb-home"><a href="/" title="Home">Jay Avery</a> &gt; </span>';
 		        
 		        // Get path and page names and addresses
 		        $url = pathinfo(strtok($_SERVER['REQUEST_URI'], '?'));
@@ -75,13 +75,13 @@
                 // Page and category
                 } else if (!empty($folder_name)) {
 		
-		            echo '<a href="' . $folder_path . '" title="Category">' . $folder_name . '</a> &gt; ';
-                    echo '<a href="" title="Current page">' . $title . '</a>';
+		            echo '<span class="breadcrumb-category"><a href="' . $folder_path . '" title="Category">' . $folder_name . '</a> &gt; </span>';
+                    echo '<span class="breadcrumb-page"><a href="" title="Current page">' . $title . '</a></span>';
                     
                 // Category page
 		        } else if ('Jay Avery' != $title) {
                     
-                    echo '<a href="" title="Current page">' . $title . '</a> &gt;';
+                    echo '<span class="breadcrumb-page"><a href="" title="Current page">' . $title . '</a> &gt;</span>';
                 }
 		
                 ?>
