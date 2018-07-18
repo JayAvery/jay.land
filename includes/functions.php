@@ -70,7 +70,7 @@
                 // 404 page
                 if (http_response_code() === 404) {
                     
-                    echo '404';
+                    echo '<span class="breadcrumb-404">404</span>';
                     
                 // Page and category
                 } else if (!empty($folder_name)) {
@@ -98,8 +98,7 @@
         if ($_SERVER['QUERY_STRING'] === 'autisticality') {
 
             echo "<section id='redirect'>
-                <h4 class='section'>You have been redirected here from a link to Autisticality</h4>
-                <p>Autisticality doesn't exist anymore, instead my best articles are hosted here on my personal site. You may want to update your bookmark!</p>
+                <p>This site is the new home of my best autism articles!</p>
             </section>";
         }
     }
@@ -112,7 +111,8 @@
         
         foreach($numbers as $number) {
             
-            echo '<a href="/images/IMG_' . $number . '.JPG" data-lightbox="gallery" data-title="' . $images[$number] . '"><img class="thumb" src="/images/IMG_' . $number . '_T.JPG"/></a>';
+            
+            echo '<figure><a class="lightbox" href="/images/IMG_' . $number . '.JPG" title="' . $images[$number] . '"><img class="thumb" src="/images/IMG_' . $number . '_T.JPG"/></a></figure>';
         }
     }
 
@@ -120,15 +120,17 @@
     function foot() {
         ?>
         
-        <!-- Continuing <body> -->
-            <footer>
-                <p id="left-foot"><span>Built with help from <a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a>, <a href="http://simplelightbox.com/">Simple Lightbox</a>, and <a href="https://samdraws.com/" title="Sam Draws">Sam Rowe</a>.</span></p>
+            <div class="footer-row"><footer>
+                <p id="left-foot"><span>Made pretty with help from <a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a>, <a href="http://simplelightbox.com/">Simple Lightbox</a>, and <a href="https://samdraws.com/" title="Sam Draws">Sam Rowe</a>.</span></p>
                 <p id="right-foot"><span>© Jay Avery 2018</span></p>
             </footer>
-    
-      <!--  <script src="/includes/lightbox-plus-jquery.js"></script> -->
+            </div>
             
-            <script src="/includes/simple-lightbox.js"></script>
+            <script src="/includes/simple-lightbox.js"></script><script>
+                $(function(){
+                    var $gallery = $('a.lightbox').simpleLightbox();
+                });
+            </script>
 
         </body>
 

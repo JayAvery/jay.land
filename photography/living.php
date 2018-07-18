@@ -11,14 +11,11 @@
         
     <main class="wide">
         
-        <h3 id="introduction">Photographs of British wildlife.</h3>
+        <h3 id="introduction">Photographs of live British wildlife.</h3>
     
         <section class="gallery">
-            
-<figure><a href="/images/IMG_4837.JPG" title="Collared dove in flightsdfibuhaiubrsiuthbosiuthbosiuhbsiuhbsoi sohsi hosh ofh oifhg osifgh osifhg osihfg osig soih"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_4837.JPG" data-lightbox="gallery" data-title="Collared dove in flight"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_1415.JPG" data-lightbox="gallery" data-title="Robin"><img class="thumb" src="/images/square.JPG"/></a></figure><figure><a href="/images/IMG_2363.JPG" data-lightbox="gallery" data-title="Rabbit hiding"><img class="thumb" src="/images/square.JPG"/></a></figure>
-            
-            
-            <?php /*
+      
+            <?php 
                 $images = array(
                     '5366' => 'Kestrel in flight',
                     '5278' => 'Cormorant',
@@ -46,19 +43,12 @@
                     '1415' => 'Robin',
                     '1148' => 'Great tit',
                 );
-                gallery($images); */
+                gallery($images); 
             ?> 
             
         </section>
         
-    </main>
-    
-            <script> 
-                $(function(){
-                    var $gallery = $('.gallery figure a').simpleLightbox();
-                });
-            </script>
-    
+    </main>    
 
     <?php foot(); ?>
             

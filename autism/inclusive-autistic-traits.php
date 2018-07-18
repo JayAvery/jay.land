@@ -5,13 +5,15 @@
     <!-- Include the main functions file from the root directory -->
     <?php
         include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
-        head("Inclusive Autistic Traits", "This isn’t a set of diagnostic criteria, because I don’t know how to diagnose autism. It’s my best attempt at an inclusive, accurate, useful, and value-neutral, description of autistic traits and autistic people.");
+        head("Inclusive Autistic Traits", "This is my best attempt at an inclusive, accurate, useful, and value-neutral, description of autistic traits and autistic people.");
     ?>
 <!-- Ends <head> and starts <body> -->   
     
     <main class="narrow">
        
         <?php query_redirect(); ?>
+        
+        <h3 id="introduction">This is my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</h3>
         
         <section id="problems">
             <h4 class="section">Problems</h4>
@@ -33,8 +35,6 @@
             <h4 class="section">Solutions</h4>
             
             <p>So, I've written my own. This isn't a set of diagnostic criteria, because I don't know how to diagnose autism. It's my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</p>
-            
-            <img class="embedded" src="/images/IMG_0547.jpg">
 
             <p>A lot of the things I've written feature directly opposite examples, like "may hate X" and "may love X". This isn't a mistake, it's a reflection of how varied autistic people can be. Often, autistic people occupy extreme ends of the bell curve in any trait - but not necessarily the same end. Because I wrote this list to be inclusive, no autistic person will have every trait on it. That would be impossible, since many of them are mutually exclusive!</p>
 

@@ -4,6 +4,9 @@
 
 body {
     background: hsl(0, 0%, 93%);
+    display: table;
+    width: 100%;
+    min-height: 100vh;
 }
 
 main.narrow {
@@ -140,6 +143,19 @@ section {
     border-top: 2px solid white;
 }
 
+section#redirect {
+    padding: 40px;
+    border: none;
+    background-color: hsl(0, 0%, 98%);
+    margin-bottom: 100px;
+    margin-top: -100px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+section#redirect p {
+    margin-top: 0;
+}
+
 #introduction {
     margin-bottom: 0px;
     padding-bottom: 45px;
@@ -156,6 +172,12 @@ a:hover {
     color: var(--links, black);
 }
 
+div.footer-row {
+    display: table-row;
+    height: fit-content;
+    vertical-align: bottom;
+}
+
 footer {
     background-color: hsl(0, 0%, 89%);
     padding: 40px;
@@ -165,8 +187,11 @@ footer p {
     display: inline;
 }
 
+
+@media screen and (min-width: 600px) {
 #right-foot span {
     float: right;
+}
 }
 
 header {
@@ -174,8 +199,12 @@ header {
     background-color: hsl(0, 0%, 89%);
 }
 
-header h2 {
+header h2#breadcrumb {
     display: inline;
+}
+
+.breadcrumb-404 {
+    color: black;
 }
 
 #email {
@@ -203,7 +232,7 @@ main.wide #introduction {
     margin-right: 20px;
 }
 
-.gallery-thumb {
+.article-thumb {
     max-width: 100%;
     border-radius: 5px;
 }
@@ -232,20 +261,19 @@ a.article:hover h4 {
     box-sizing: border-box;
     width: 33.33%;
     padding: 20px;
-    margin: 0;
 }
 
-figure a {
-    border-bottom: none;
-    line-height: 0;
-    
+figure {
+    margin: 0;
+    text-align: center;
 }
 
 img.embedded {
     border-radius: 5px;
-    width: 100%;
+    max-width: 100%;
     margin-top: 11px;
     margin-bottom: 11px;
+    text-align: center;
 }
 
 .gallery img {
@@ -254,11 +282,16 @@ img.embedded {
     width: 100%;
 }
 
-.gallery a img {
+a.lightbox {
+    border-bottom: none;
+    line-height: 0;
+}
+
+.gallery a.lightbox {
     transition: .2s;
 }
 
-.gallery a:hover img {
+.gallery a.lightbox:hover {
     opacity: 0.8;
 }
 
@@ -282,6 +315,11 @@ img#cc-icon {
         padding-right: 30px;
         margin-top: 30px;
         margin-bottom: 5px;
+    }
+    
+    section#redirect {
+        margin-top: -30px;
+        margin-bottom: 30px;
     }
     
     main.wide {
@@ -367,6 +405,10 @@ img#cc-icon {
     
     p#cc-text {
         width: 100%;
+    }
+    
+    img.gallery-thumb {
+        margin-bottom: 10px;
     }
     
     .breadcrumb-category, .breadcrumb-page {

@@ -51,7 +51,7 @@
         <section id="support">
             <h4 class="section">Support me</h4>
             <ul>
-                <li>Send cash through <a href="paypal.me/jayvery" title="PayPal me">PayPal</a>.</li>
+                <li>Send cash through <a href="https://www.paypal.me/jayvery" title="PayPal me">PayPal</a>.</li>
             </ul>
         </section>
     </main>  

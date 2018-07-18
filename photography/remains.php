@@ -9,7 +9,9 @@
     ?>
 <!-- Ends <head> and starts <body> -->    
         
-    <main>
+    <main class="wide">
+        
+        <h3 id="introduction">Photographs of wild collected bones.</h3>
     
         <section class="gallery">
             
@@ -35,11 +37,6 @@
         </section>
         
     </main>
-    
-    <footer>
-        <ul>
-            <li>Page updated 2018-07-02</li>
-            <li>© Jay Avery 2018</li>
 
     <?php foot(); ?>
 </html>

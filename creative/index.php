@@ -9,24 +9,17 @@
     ?>
 <!-- Ends <head> and starts <body> -->    
         
-    <main>
+    <main class="narrow">
     
                 
         <h3 id="introduction">I make things a lot.</h3>
         
-        <section class="contents">
-            <article>
-                <h4 class="article"><a href="/creative/humancube">The Humancube</a></h4>
-                <p class="summary">I made a weird piece of furniture.</p>
-            </article>
-        </section>
+        <a class="article" href="/creative/humancube"><section>
+            <h4 class="article">The Humancube</h4>
+            <p class="summary">I made a weird piece of furniture.</p>
+        </section></a>
         
     </main>
-    
-    <footer>
-        <ul>
-            <li>Page updated 2018-07-02</li>
-            <li>© Jay Avery 2018</li>
             
     <?php foot(); ?>
 

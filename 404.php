@@ -10,19 +10,15 @@
     ?>
 <!-- Ends <head> and starts <body> -->    
         
-    <main>
+    <main class="narrow">
     
         <h3 id="introduction">There's nothing here.</h3>
+        <section>
         <p>If this seems like a mistake, please <a href="mailto:hi@jay.land" title="New email">contact me.</a></p>
-
+        </section>
         
     </main>
     
-    <footer>
-        <ul>
-            <li>Page updated 2018-07-02</li>
-            <li>© Jay Avery 2018</li>
-
     <?php foot(); ?>
-<!-- Ends </footer> and </body> -->            
+            
 </html>

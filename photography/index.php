@@ -16,12 +16,13 @@
         <a class="article" href="/photography/living"><section>
             <h4>Living</h4>
             <p>Photographs of live British wildlife.</p>
-            <img class="gallery-thumb" src="/images/IMG_0547_T.jpg">
+            <img class="article-thumb" src="/images/IMG_3458.jpg">
         </section></a>
-        <section>
-            <h4><a href="/photography/remains">Remains</a></h4>
+        <a class="article" href="/photography/remains"><section>
+            <h4>Remains</h4>
             <p>Photographs of wild collected bones.</p>
-        </section>
+            <img class="article-thumb" src="/images/IMG_2970.jpg">
+        </section></a>
         
     </main>
     
