@@ -16,7 +16,7 @@
         <a class="article" href="/photography/living"><section>
             <h4>Living</h4>
             <p>Photographs of live British wildlife.</p>
-            <img class="article-thumb" src="/images/IMG_3458.jpg">
+            <img class="article-thumb" src="/images/IMG_1415.jpg">
         </section></a>
         <a class="article" href="/photography/remains"><section>
             <h4>Remains</h4>

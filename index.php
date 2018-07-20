@@ -17,7 +17,7 @@
             <h4 class="section">Contact me directly</h4>
             <ul>
                 <li>Send me an <a href="mailto:hi@jay.land" title="New email">email</a>.</li>
-                <li>Message me on <a href="https://t.me/JayAvery" title="Telegram chat">Telegram</a>.</li>
+                <li>Message me on <a href="https://t.me/JayAvery" title="Telegram chat" target="_blank">Telegram</a>.</li>
             </ul>
         </section>
         

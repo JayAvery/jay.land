@@ -1,6 +1,7 @@
 /* line 27, ../sass/simplelightbox.scss */
 body.hidden-scroll {
   overflow: hidden;
+    box-sizing: border-box;
 }
 
 /* line 30, ../sass/simplelightbox.scss */

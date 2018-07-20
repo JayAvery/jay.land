@@ -1,11 +1,12 @@
 <?php
 
-    $colours = array('#00c8cc', '#d5a7ff', '#a2adff', '#89ccff', '#b9d7a0', '#ebcd29', '#75c471', '#cd9ee0', '#b8d23f', '#7db9eb', '#f1ae72');
+    $colours = array('00c8cc', 'd5a7ff', 'a2adff', '89ccff', 'b9d7a0', 'ebcd29', '75c471', 'cd9ee0', 'b8d23f', '7db9eb', 'f1ae72');
+    $colour = $colours[array_rand($colours)];
 
     /* Standard elements to start every page. */
     function head($title, $description) {
         
-        global $colours;
+        global $colour;
         
         ?>
 
@@ -23,26 +24,27 @@
             <meta charset="utf-8">
             <meta http-equiv="x-ua-compatible" content="ie=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <!-- Place favicon.ico in the root directory -->
 
             <!-- Styles and fonts -->
             <link rel="stylesheet" href="/includes/normalize.css">
-         <!--   <link rel="stylesheet" href="/includes/lightbox.css"> -->
             <link rel="stylesheet" href="/includes/simplelightbox.css">
             <link rel="stylesheet" href="/includes/style.css">
             <link href="https://fonts.googleapis.com/css?family=Muli:400,800" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,700" rel="stylesheet">
             <style>
                 :root {
-                    --links: <?php echo $colours[array_rand($colours)]; ?>
+                    --links: <?php echo '#' . $colour; ?>
                 }
             </style>
 
-            
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
-
+            <!-- Favicons -->
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+            <link rel="manifest" href="/site.webmanifest">
+            <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2385a1">
+            <meta name="msapplication-TileColor" content="#00aba9">
+            <meta name="theme-color" content="#ffffff">
 
             <!-- Page info -->
             <title><?php echo $title; ?></title>
@@ -125,6 +127,8 @@
                 <p id="right-foot"><span>© Jay Avery 2018</span></p>
             </footer>
             </div>
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
             
             <script src="/includes/simple-lightbox.js"></script><script>
                 $(function(){
