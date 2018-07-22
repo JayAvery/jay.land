@@ -18,8 +18,8 @@
             <p>Photographs of live British wildlife.</p>
             <img class="article-thumb" src="/images/IMG_1415.jpg">
         </article></a>
-        <a class="article" href="/photography/remains"><article>
-            <h4>Remains</h4>
+        <a class="article" href="/photography/dead"><article>
+            <h4>Dead</h4>
             <p>Photographs of wild collected bones.</p>
             <img class="article-thumb" src="/images/IMG_2970.jpg">
         </article></a>

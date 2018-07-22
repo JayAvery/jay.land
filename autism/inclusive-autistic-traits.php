@@ -352,18 +352,20 @@
                         <li>Unconscious variation.
                             <ul class="spaced-list">
                                 <li>May have learned masking behaviour from early childhood.</li>
-                                <li>May have trauma or mental illness which affects presentation of traits.</li>
+                                <li>May have trauma or mental illness which affects presentation of traits.<span class="dot"></span></li>
                             </ul>
                         </li>
                     </ol>
                 </li>
             </ol>
         </section>
+    </article>
+    <article>
             
-        <section id="please-use">
+        <section>
             <h4 class="section">Please use this list</h4>
 
-            <p>I'd love for people to use this list, or descriptions based on it, in place of the triad of impairments and other flawed summaries. I have given this work a Creative Commons license that means anyone has permission to use, share, and modify it - as long as you credit me, don't sell it for money, and use the same license rules on your own versions.<span class="dot"></span></p>
+            <p>I'd love for people to use this list, or descriptions based on it, in place of the triad of impairments and other flawed summaries. I have given this work a Creative Commons license that means anyone has permission to use, share, and modify it - as long as you credit me, don't sell it for money, and use the same license rules on your own versions.</p>
         </section>
         
         <section id="creative-commons">

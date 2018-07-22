@@ -113,6 +113,10 @@ li {
     padding-bottom: 5px;
 }
 
+li li:last-child {
+    padding-bottom: 0px;
+}
+
 li::before {
     padding-right: 40px;
     margin-left: -51px;
@@ -174,6 +178,10 @@ article section:first-child::before {
     display: none;
 }
 
+article > section:last-child {
+    padding-bottom: 0px;
+}
+
 #redirect {
     padding: 40px;
     border: none;
@@ -233,6 +241,10 @@ header h2#breadcrumb {
 
 .breadcrumb-404 {
     color: black;
+}
+
+.breadcrumb-dots {
+    display: none;
 }
 
 #email {
@@ -408,8 +420,20 @@ span.dot {
         display: block;
     }
     
-    .breadcrumb-category, .breadcrumb-page {
+    .breadcrumb-dots {
+        display: inline;
+    }
+    
+    .breadcrumb-dots:focus {
         display: none;
+    }
+        
+    .breadcrumb-expand {
+        display: none;
+    }
+    
+    .breadcrumb-dots:focus + .breadcrumb-expand {
+        display: inline;
     }
     
     ol.spaced-list > li::before {
@@ -455,10 +479,6 @@ span.dot {
     
     img.gallery-thumb {
         margin-bottom: 10px;
-    }
-    
-    .breadcrumb-category, .breadcrumb-page {
-        display: none;
     }
     
     .sl-wrapper .sl-navigation button {
