@@ -243,8 +243,9 @@ header h2#breadcrumb {
     color: black;
 }
 
-.breadcrumb-dots {
-    display: none;
+.breadcrumb-dots::before {
+    content: "";
+    color: black;
 }
 
 #email {
@@ -420,19 +421,19 @@ span.dot {
         display: block;
     }
     
-    .breadcrumb-dots {
-        display: inline;
+    .breadcrumb-dots::before {
+        content: "...";
     }
     
-    .breadcrumb-dots:focus {
-        display: none;
+    .breadcrumb-dots:focus::before {
+        content: "";
     }
         
     .breadcrumb-expand {
         display: none;
     }
     
-    .breadcrumb-dots:focus + .breadcrumb-expand {
+    .breadcrumb-dots:focus ~ .breadcrumb-expand {
         display: inline;
     }
     

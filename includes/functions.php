@@ -63,8 +63,10 @@
 		        echo '<h2 id="breadcrumb">';
 		        // Homepage link
 		        echo '<span class="breadcrumb-home"><a href="/" title="Home">Jay Avery</a> &gt; </span>';
-                // Expand span for mobile
-                echo '<span tabindex="0" class="breadcrumb-dots">...</span><span class="breadcrumb-expand">';
+                if ('Jay Avery' != $title) {
+                    // Expand span for mobile
+                    echo '<span tabindex="0" class="breadcrumb-dots"></span><span class="breadcrumb-expand">';
+                }
 		        
 		        // Get path and page names and addresses
 		        $url = pathinfo(strtok($_SERVER['REQUEST_URI'], '?'));
@@ -88,9 +90,11 @@
                     echo '<span class="breadcrumb-page"><a href="" title="Current page">' . $title . '</a> &gt;</span>';
                 }
         
-                // End expand span for mobile
-                echo '</span>';
-		
+                if ('Jay Avery' != $title) {
+                    // End expand span for mobile
+                    echo '</span>';
+                }
+                    
                 ?>
                 
                 <h2 id="email"><a href="mailto:me@jay.land" title="New email">@</a></h2>
