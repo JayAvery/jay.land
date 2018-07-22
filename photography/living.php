@@ -13,7 +13,7 @@
         
         <h3 id="introduction">Photographs of live British wildlife.</h3>
     
-        <section class="gallery">
+        <article class="gallery">
       
             <?php 
                 $images = array(
@@ -46,7 +46,7 @@
                 gallery($images); 
             ?> 
             
-        </section>
+        </article>
         
     </main>    
 

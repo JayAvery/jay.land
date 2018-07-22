@@ -13,7 +13,7 @@
         
         <h3 id="introduction">Photographs of wild collected bones.</h3>
     
-        <section class="gallery">
+        <article class="gallery">
             
             <?php
                 $images = array(
@@ -34,7 +34,7 @@
                 gallery($images);
             ?>
             
-        </section>
+        </article>
         
     </main>
 

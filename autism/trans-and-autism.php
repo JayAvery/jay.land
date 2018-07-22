@@ -12,11 +12,13 @@
     
         <h3 id="introduction">Blaming trans identities on autism hurts everyone</h3>
         
+        <article>
+        
         <section>
             
             <p><em>Originally written for the <a href="https://www.huffingtonpost.co.uk/jay-avery/trans-autism_b_14418218.html" title="Huffington Post source">Huffington Post Blog</a>, 2017-01-27.</em></p>
             
-            <p>There has recently been a lot of media attention on the connection between being transgender and being autistic. The focus of much of this attention is Dr Kenneth Zucker, a psychologist whose gender clinic was closed down in 2015 for practising reparative therapy on children – behavioural therapy with the aim of ‘training’ children not to be transgender. He has been <a href="http://www.dailymail.co.uk/news/article-4111400/Children-think-transgender-autism-fixating-sex-says-expert.html" title="Quote source">outspoken</a> about his views that children with gender dysphoria are often autistic, and the implication that this somehow means they are not truly transgender.</p>
+            <p>There has recently been a lot of media attention on the connection between being transgender and being autistic. The focus of much of this attention is Dr Kenneth Zucker, a psychologist whose gender clinic was closed down in 2015 for practising reparative therapy on children – behavioural therapy with the aim of ‘training’ children not to be transgender. He has been <a href="http://www.dailymail.co.uk/news/section-4111400/Children-think-transgender-autism-fixating-sex-says-expert.html" title="Quote source">outspoken</a> about his views that children with gender dysphoria are often autistic, and the implication that this somehow means they are not truly transgender.</p>
             
             <p>Blaming trans identities on autism like this is directly harmful in many ways. Not just to autistic transgender people, but to other autistic people, other trans people, and to those who are neither.</p>
             
@@ -44,7 +46,7 @@
         
             <p>Perhaps less common but equally damaging is when problems related to autism are blamed on the fact someone is transgender, rather than vice versa. If a transgender person seeks support or assessment for autism, any autistic trait they point out may be brushed off as a result of being transgender. The assumption people make in these cases is again that it’s impossible for someone who is transgender to also be autistic.</p>
         
-            <p>But autistic transgender people do exist. I am right here, existing – so are many of my friends. And if anecdotal evidence isn’t good enough, there is <a href="http://www.smr.jsexmed.org/article/S2050-0521(15)00004-9/pdf" title="Research review source">increasing research</a> showing a correlation between being transgender and autistic among <a href="http://link.springer.com/article/10.1007/s10803-010-0935-9#page-1" title="Research source">children</a> and <a href="http://link.springer.com/article/10.1007/s10508-013-0154-5#page-1" title="Research source">adults</a>.</p>
+            <p>But autistic transgender people do exist. I am right here, existing – so are many of my friends. And if anecdotal evidence isn’t good enough, there is <a href="http://www.smr.jsexmed.org/section/S2050-0521(15)00004-9/pdf" title="Research review source">increasing research</a> showing a correlation between being transgender and autistic among <a href="http://link.springer.com/section/10.1007/s10803-010-0935-9#page-1" title="Research source">children</a> and <a href="http://link.springer.com/section/10.1007/s10508-013-0154-5#page-1" title="Research source">adults</a>.</p>
 
         </section><section>
         
@@ -54,9 +56,10 @@
         
             <p>But those things are only a risk if the people around them are enforcing strict binaries and preventing harmless self-exploration. If a child mentions not feeling like their birth-assigned gender, and the next day they are put under the knife for permanent and risky surgery – yes, of course that would be bad. If a child mentions not feeling like their birth-assigned gender, and the next day they are forced into behavioural modification therapy to stop them from expressing those feelings – that is bad too.</p>
         
-            <p>Those two approaches are not the only options, though. <em>The best</em> option is to allow someone to explore their feelings, support them in gaining self-understanding, and accept their identity whatever it turns out to be. It is not complicated, and it’s only scary if you are still holding onto the belief that being either autistic or transgender – or, perish the thought, both – is a terrible thing to be. Which it’s not. I am, along with countless others like me, living proof of that.</p>
+            <p>Those two approaches are not the only options, though. <em>The best</em> option is to allow someone to explore their feelings, support them in gaining self-understanding, and accept their identity whatever it turns out to be. It is not complicated, and it’s only scary if you are still holding onto the belief that being either autistic or transgender – or, perish the thought, both – is a terrible thing to be. Which it’s not. I am, along with countless others like me, living proof of that.<span class="dot"></span></p>
         
         </section>
+    </article>
         
     </main>
 

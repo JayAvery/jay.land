@@ -14,10 +14,10 @@
                 
         <h3 id="introduction">I make things a lot.</h3>
         
-        <a class="article" href="/creative/humancube"><section>
+        <a class="article" href="/creative/humancube"><article>
             <h4 class="article">The Humancube</h4>
             <p class="summary">I made a weird piece of furniture.</p>
-        </section></a>
+        </article></a>
         
     </main>
             

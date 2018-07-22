@@ -13,16 +13,16 @@
     
         <h3 id="introduction">I take photos of my wildlife adventures.</h3>
         
-        <a class="article" href="/photography/living"><section>
+        <a class="article" href="/photography/living"><article>
             <h4>Living</h4>
             <p>Photographs of live British wildlife.</p>
             <img class="article-thumb" src="/images/IMG_1415.jpg">
-        </section></a>
-        <a class="article" href="/photography/remains"><section>
+        </article></a>
+        <a class="article" href="/photography/remains"><article>
             <h4>Remains</h4>
             <p>Photographs of wild collected bones.</p>
             <img class="article-thumb" src="/images/IMG_2970.jpg">
-        </section></a>
+        </article></a>
         
     </main>
     

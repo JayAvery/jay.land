@@ -13,9 +13,9 @@
     <main class="narrow">
     
         <h3 id="introduction">There's nothing here.</h3>
-        <section>
+        <article>
         <p>If this seems like a mistake, please <a href="mailto:hi@jay.land" title="New email">contact me.</a></p>
-        </section>
+        </article>
         
     </main>
     

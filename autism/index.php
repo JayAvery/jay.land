@@ -15,15 +15,15 @@
         
         <h3 id="introduction">I write about being autistic.</h3>
         
-        <a class="article" href="/autism/inclusive-autistic-traits"><section>
+        <a class="article" href="/autism/inclusive-autistic-traits"><article>
             <h4>Inclusive Autistic Traits</h4>
             <p class="summary">This is my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</p>
-        </section></a>
+        </article></a>
         
-        <a class="article" href="/autism/trans-and-autism"><section>    
+        <a class="article" href="/autism/trans-and-autism"><article>    
             <h4>Trans and autism</h4>
             <p class="summary">Blaming trans identities on autism hurts everyone.</p>
-        </section></a>
+        </article></a>
         
     </main>
     

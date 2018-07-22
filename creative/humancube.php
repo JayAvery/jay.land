@@ -13,7 +13,7 @@
     
         <h3 id="introduction">I made a weird piece of furniture.</h3>
         
-        <section>
+        <article>
         <figure><a href="/images/IMG_4470.JPG" class="lightbox" title="Wood and scaffold cube seat full of cushions"><img class="embedded" src="/images/IMG_4470.JPG"/></a></figure>
         
         <p>It's my version of an armchair, as a person who likes being in small enclosed spaces and sitting on the floor. It's basically a 1m cube, with a frame made of scaffolding handrail poles, and adjustable faces made of plywood.</p>
@@ -34,10 +34,10 @@
         
         <figure><a href="/images/cube-fast.gif" class="lightbox" title="Folding and unfolding all the moveable sides"><img class="embedded" src="/images/cube-fast.gif"/></a></figure>
         
-        <p>Tested for security by my rabbit.</p>
+        <p>Tested for security by my rabbit.<span class="dot"></span></p>
         
         <figure><a href="/images/IMG_4329.JPG" class="lightbox" title="Rabbit exploring the finished cube"><img class="embedded" src="/images/IMG_4329.JPG"/></a></figure>
-        </section>
+        </article>
     </main>
 
     <?php foot(); ?>
