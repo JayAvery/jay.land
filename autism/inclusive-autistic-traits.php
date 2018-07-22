@@ -15,8 +15,10 @@
         
         <h3 id="introduction">This is my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</h3>
         
-        <article id="problems">
-            <h4 class="article">Problems</h4>
+        <article>
+            
+        <section id="problems">
+            <h4 class="section">Problems</h4>
             
             <p>Autism is big and messy and confusing, and no-one really understands it. It's difficult to make a good summary and description of autistic traits, because generally no-one can agree on what autism actually is. But even taking that into account, I've never read a satisfactory article or leaflet summarising and describing autistic traits. Every description I've ever read suffered from at least one of these problems:</p>
             
@@ -29,10 +31,10 @@
                 
 	           <li><em>Restrictive</em>. Autistic people are so incredibly varied. And yet often, the only acknowledgement of that diversity is a mention of "both ends of the spectrum", functioning labels, or a comparison of Asperger's and classic autism. Not only are these trivial attempts at expressing the variation between autistic people, they are actively harmful in their own right.</li>
             </ul>
-        </article>
+        </section>
         
-        <article id="solutions">
-            <h4 class="article">Solutions</h4>
+        <section id="solutions">
+            <h4 class="section">Solutions</h4>
             
             <p>So, I've written my own. This isn't a set of diagnostic criteria, because I don't know how to diagnose autism. It's my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</p>
 
@@ -40,13 +42,13 @@
 
             <p>The point is to include the widest possible range of  autistic traits, not the minimum range of criteria needed to define autism. Instead of showing what things every autistic person will have in common (which would result in the kind of pitifully small and generally useless descriptions found elsewhere), this list intends to show you the greatest diversity you can expect to encounter among autistic people.</p>
             
-        </article>
-        <article id="the-list">
-            <h4 class="article">The list</h4>
+        </section>
+        <section id="the-list">
+            <h4 class="section">The list</h4>
 
             <p>With all that covered, let me get to the actual list. It's divided into three broad categories of traits: social, sensory, and cognitive. These divisions are not perfect, but they're the best way I've found of categorising, and they make it easier to understand the list. Each category is divided into sections (numbers) and subsections (letters), which each contain a list of specific example traits.</p>
 
-            <h6 class="subarticle">Social</h6>
+            <h6 class="subsection">Social</h6>
             <ol class="spaced-list">
                 <li>Differences in body language and nonverbal communication.
                     <ol class="spaced-list">
@@ -140,7 +142,7 @@
                 </li>
             </ol>
 
-            <h6 class="subarticle">Sensory</h6>
+            <h6 class="subsection">Sensory</h6>
             <ol class="spaced-list">
                 <li>Differences in sensory sensitivity.
                     <ol class="spaced-list">
@@ -239,7 +241,7 @@
                 </li>
             </ol>
             
-            <h6 class="subarticle">Cognitive</h6>
+            <h6 class="subsection">Cognitive</h6>
             <ol class="spaced-list">
                 <li>Strength of focus and rigidity.
                     <ol class="spaced-list">
@@ -321,7 +323,7 @@
                 </li>
             </ol>
             
-            <h6 class="subarticle">Variation</h6>
+            <h6 class="subsection">Variation</h6>
             <ol class="spaced-list">
                 <li>Variation of traits.
                     <ol class="spaced-list">
@@ -356,20 +358,21 @@
                     </ol>
                 </li>
             </ol>
-        </article>
+        </section>
             
-        <article id="please-use">
-            <h4 class="article">Please use this list</h4>
+        <section id="please-use">
+            <h4 class="section">Please use this list</h4>
 
             <p>I'd love for people to use this list, or descriptions based on it, in place of the triad of impairments and other flawed summaries. I have given this work a Creative Commons license that means anyone has permission to use, share, and modify it - as long as you credit me, don't sell it for money, and use the same license rules on your own versions.<span class="dot"></span></p>
-        </article>
+        </section>
         
-        <article id="creative-commons">
+        <section id="creative-commons">
             <p id="cc-text"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Inclusive Autistic Traits</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jay.land/autism/inclusive-autistic-traits" property="cc:attributionName" rel="cc:attributionURL">Jay Avery</a> is licensed under a <em>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</em> - <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">view here</a>.</p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="cc-icon" alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-        </article>
+        </section>
+    </article>
                 
     </main>
         
 
-    <?php foot(''); ?>
+    <?php foot(); ?>
 </html>

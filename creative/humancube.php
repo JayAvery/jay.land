@@ -38,6 +38,7 @@
         
         <figure><a href="/images/IMG_4329.JPG" class="lightbox" title="Rabbit exploring the finished cube"><img class="embedded" src="/images/IMG_4329.JPG"/></a></figure>
         </article>
+        
     </main>
 
     <?php foot(); ?>
