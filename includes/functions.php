@@ -97,7 +97,7 @@
                     
                 ?>
                 
-                <h2 id="email"><a href="mailto:me@jay.land" title="New email">@</a></h2>
+                <a id="email-link" href="mailto:me@jay.land" title="New email"><span id="email-icon"></span></a></h2>
                 
             </header>
         <?php

@@ -248,10 +248,14 @@ header h2#breadcrumb {
     color: black;
 }
 
-#email {
+#email-icon {
     float: right;
     font-family: 'Muli', sans-serif;
     font-weight: 800;
+}
+
+#email-icon::before {
+    content: "@";
 }
 
 h2 a {
@@ -437,6 +441,12 @@ span.dot {
         display: inline;
     }
     
+    .breadcrumb-dots:focus ~ #email-link #email-icon::before {
+        content: "×";
+        font-size: 42px;
+        opacity: 0.13;
+    }
+    
     ol.spaced-list > li::before {
         padding-right: 0;
         margin-left: -22px;
@@ -514,7 +524,7 @@ span.dot {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
-    h2#email {
+    #email-link {
         display: none;
     }
 }
