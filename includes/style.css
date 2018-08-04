@@ -265,7 +265,7 @@ header h2#breadcrumb {
     font-weight: 800;
     display: none;
     transform: rotate(-45deg);
-    transform-origin: 50% 50%;
+    transform-origin: 63% 58%;
     transition: .2s;
     padding-left: 10px;
     color: black;
