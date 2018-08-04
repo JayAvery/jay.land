@@ -211,6 +211,10 @@ a:hover {
     color: var(--links, black);
 }
 
+:focus {
+    outline: none;
+}
+
 div.footer-row {
     display: table-row;
     height: fit-content;
@@ -243,9 +247,9 @@ header h2#breadcrumb {
     color: black;
 }
 
-.breadcrumb-dots::before {
-    content: "";
+.breadcrumb-dots {
     color: black;
+    display: none;
 }
 
 #email-icon {
@@ -253,9 +257,26 @@ header h2#breadcrumb {
     font-family: 'Muli', sans-serif;
     font-weight: 800;
 }
+ 
+#menu-label {
+    float: right;
+    font-family: 'Muli', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    display: none;
+    transform: rotate(-45deg);
+    transform-origin: 
+    transition: .2s;
+    padding-left: 10px;
+    color: black;
+}
 
-#email-icon::before {
-    content: "@";
+#menu {
+    display: none;
+}
+
+#menu:checked ~ #menu-label {
+    transform: rotate(0deg);
 }
 
 h2 a {
@@ -424,27 +445,29 @@ span.dot {
         padding-top: 18px;
         display: block;
     }
-    
-    .breadcrumb-dots::before {
-        content: "...";
-    }
-    
-    .breadcrumb-dots:focus::before {
-        content: "";
-    }
         
     .breadcrumb-expand {
         display: none;
     }
     
-    .breadcrumb-dots:focus ~ .breadcrumb-expand {
+    .breadcrumb-dots {
         display: inline;
     }
     
-    .breadcrumb-dots:focus ~ #email-link #email-icon::before {
-        content: "×";
-        font-size: 42px;
-        opacity: 0.13;
+    #menu:checked ~ .breadcrumb-expand {
+        display: inline;
+    }
+    
+    #menu:checked ~ .breadcrumb-dots {
+        display: none;
+    }
+    
+    #email-icon {
+        display: none;
+    }
+    
+    #menu-label {
+        display: block;
     }
     
     ol.spaced-list > li::before {
@@ -504,6 +527,22 @@ span.dot {
     .sl-wrapper .sl-close {
         top: 30px;
         right: 30px;
+    }
+    
+    .gallery a.lightbox:hover {
+        opacity: 1;
+    }
+    
+    a:hover {
+        color: black;
+    }
+    
+    h2 a:hover {
+        color:black;
+    }
+    
+    a.article:hover h4 {
+        color: black;
     }
 }
 

@@ -59,13 +59,24 @@
             <header>
                 
                 <?php 
+                $home = 'Jay Avery' == $title;
+        
                 // Open heading
 		        echo '<h2 id="breadcrumb">';
+        
+                // Email link
+                echo '<a id="email-link" href="mailto:me@jay.land" title="New email"><span id="email-icon">@</span></a>';
+        
+                // Expand button
+                if (!$home) {
+                    echo '<input type="checkbox" id="menu"><label id="menu-label" for="menu">×</label>';
+                }
+        
 		        // Homepage link
 		        echo '<span class="breadcrumb-home"><a href="/" title="Home">Jay Avery</a> &gt; </span>';
-                if ('Jay Avery' != $title) {
+                if (!$home) {
                     // Expand span for mobile
-                    echo '<span tabindex="0" class="breadcrumb-dots"></span><span class="breadcrumb-expand">';
+                    echo '<label for="menu" class="breadcrumb-dots">...</label><span class="breadcrumb-expand">';
                 }
 		        
 		        // Get path and page names and addresses
@@ -85,19 +96,19 @@
                     echo '<span class="breadcrumb-page"><a href="" title="Current page">' . $title . '</a></span>';
                     
                 // Category page
-		        } else if ('Jay Avery' != $title) {
+		        } else if (!$home) {
                     
                     echo '<span class="breadcrumb-page"><a href="" title="Current page">' . $title . '</a> &gt;</span>';
                 }
         
-                if ('Jay Avery' != $title) {
-                    // End expand span for mobile
+                if (!$home) {
+                    // End expand spans for mobile
                     echo '</span>';
                 }
                     
                 ?>
                 
-                <a id="email-link" href="mailto:me@jay.land" title="New email"><span id="email-icon"></span></a></h2>
+                </h2>
                 
             </header>
         <?php
@@ -107,7 +118,6 @@
     function query_redirect() {
         
         if ($_SERVER['QUERY_STRING'] === 'autisticality') {
-
             echo "<section id='redirect'>
                 <p>This site is the new home of my best autism articles!</p>
             </section>";
@@ -119,10 +129,7 @@
         
         $numbers = array_keys($images);
         shuffle($numbers);
-        
         foreach($numbers as $number) {
-            
-            
             echo '<figure><a class="lightbox" href="/images/IMG_' . $number . '.JPG" title="' . $images[$number] . '"><img class="thumb" src="/images/IMG_' . $number . '_T.JPG"/></a></figure>';
         }
     }
@@ -132,7 +139,7 @@
         ?>
         
             <div class="footer-row"><footer>
-                <p id="left-foot"><span>Made pretty with help from <a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a>, <a href="http://simplelightbox.com/">Simple Lightbox</a>, and <a href="https://samdraws.com/" title="Sam Draws">Sam Rowe</a>.</span></p>
+                <p id="left-foot"><span>Made pretty with help from <a href="http://nicolasgallagher.com/about-normalize-css/" title="normalize.css source">normalize.css</a>, <a href="http://simplelightbox.com/">Simple Lightbox</a>, and <a href="https://samdraws.com/">Sam Rowe</a>.</span></p>
                 <p id="right-foot"><span>© Jay Avery 2018</span></p>
             </footer>
             </div>
