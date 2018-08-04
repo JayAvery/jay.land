@@ -266,7 +266,7 @@ header h2#breadcrumb {
     display: none;
     transform: rotate(-45deg);
     transform-origin: 63% 58%;
-    transition: .2s;
+    transition: .3s;
     padding-left: 10px;
     color: black;
 }
