@@ -42,6 +42,12 @@
                     '2363' => 'Rabbit hiding',
                     '1415' => 'Robin',
                     '1148' => 'Great tit',
+                    '9679' => 'Greylag geese',
+                    '9478' => 'Bloody-nosed beetle',
+                    '9115' => 'Hover fly on thistle',
+                    '6948' => 'Lapwing in flight',
+                    '24' => 'Labyrinth spider in heather',
+                    '15-1' => 'Palmate newt'
                 );
                 gallery($images); 
             ?> 
