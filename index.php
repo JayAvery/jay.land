@@ -51,7 +51,7 @@
         <article id="support">
             <h4 class="article">Support me</h4>
             <ul>
-                <li>Send cash through <a href="https://www.paypal.me/jayvery" title="PayPal me">PayPal</a>.</li>
+                <li>Send cash through <a href="https://www.paypal.me/jayvery" title="PayPal me">PayPal</a>, or buy a <a href="https://www.amazon.co.uk/hz/wishlist/ls/22GQXZHNZSH4O" title="Amazon wishlist">present</a>.</li>
             </ul>
         </article>
     </main>  
