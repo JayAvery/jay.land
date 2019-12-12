@@ -43,7 +43,7 @@
             <h4 class="article">Stuff I do elsewhere</h4>
             <ul>
                 <li>Code on <a href="https://github.com/JayAvery" title="GitHub profile">GitHub</a>.</li>
-                <li>Minecraft mods for <a href="https://minecraft.curseforge.com/members/JayAvery/projects" title="CurseForge author profile">Forge</a> and <a href="https://www.spigotmc.org/resources/authors/jayavery.452238/" ttle="Spigot author profile">Spigot/Bukkit</a>.</li>
+                <li>Minecraft mods for <a href="https://www.curseforge.com/members/jazzable/projects" title="CurseForge author profile">Forge</a> and <a href="https://www.spigotmc.org/resources/authors/jayavery.452238/" ttle="Spigot author profile">Spigot/Bukkit</a>.</li>
                 <li>Knitting patterns on <a href="https://www.ravelry.com/designers/jay-avery" title="Ravelry designer profile">Ravelry</a>.</li>
                 <li>Hand-bleached nerd t-shirts on <a href="https://www.etsy.com/shop/nerditee" title="Etsy shop">Etsy</a>.</li>
                 <li>Online programming tutoring on <a href="https://www.chegg.com/tutors/online-tutors/Jay-R-4890854/" title="Chegg tutor profile">Chegg</a>.</li>
