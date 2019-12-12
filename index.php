@@ -26,6 +26,7 @@
             <ul>
                 <li>Follow me for more nerd talk on <a href="https://twitter.com/_jayavery" title="Twitter profile">Twitter</a>.</li>
                 <li>Follow me for more pictures on <a href="https://www.instagram.com/_jayavery/" title="Instagram profile">Instagram</a>.</li>
+                <li>Follow me for a bit of everything on <a href="https://jay-avery.tumblr.com/" title="Tumblr blog">Tumblr</a>.</li>
                 <li>Follow my wildlife encounters on <a href="https://www.inaturalist.org/people/jayavery" title="iNaturalist profile">iNaturalist</a>.</li>
             </ul>
         </article>
