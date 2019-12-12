@@ -17,7 +17,7 @@
             
             <?php
                 $images = array(
-                    '6004' => 'Catherine's moss capsule',
+                    '6004' => 'Catherine\'s moss capsule',
                     '6005' => 'Candlesnuff fungus',
                     '6006' => 'Hypnum moss',
                     '6007' => 'Moss landscape',
