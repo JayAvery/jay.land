@@ -26,6 +26,7 @@
             <ul>
                 <li>Follow me for more nerd talk on <a href="https://twitter.com/_jayavery" title="Twitter profile">Twitter</a>.</li>
                 <li>Follow me for more pictures on <a href="https://www.instagram.com/_jayavery/" title="Instagram profile">Instagram</a>.</li>
+                <li>Follow my wildlife encounters on <a href="https://www.inaturalist.org/people/jayavery" title="iNaturalist profile">iNaturalist</a>.</li>
             </ul>
         </article>
            
@@ -34,7 +35,7 @@
             <ul>
                 <li>Articles about <a href="/autism" title="Autism articles">autism and disability</a>.</li>
                 <li>Articles and pictures of <a href="/creative" title="Creative articles">creative projects</a>.</li>
-                <li>Best of <a href="/photography" title="Photography galleries">wildlife photography</a>.</li>
+                <li>Best of my <a href="/photography" title="Photography galleries">photography</a>.</li>
             </ul>
         </article>
         
@@ -45,6 +46,7 @@
                 <li>Minecraft mods for <a href="https://minecraft.curseforge.com/members/JayAvery/projects" title="CurseForge author profile">Forge</a> and <a href="https://www.spigotmc.org/resources/authors/jayavery.452238/" ttle="Spigot author profile">Spigot/Bukkit</a>.</li>
                 <li>Knitting patterns on <a href="https://www.ravelry.com/designers/jay-avery" title="Ravelry designer profile">Ravelry</a>.</li>
                 <li>Hand-bleached nerd t-shirts on <a href="https://www.etsy.com/shop/nerditee" title="Etsy shop">Etsy</a>.</li>
+                <li>Online programming tutoring on <a href="https://www.chegg.com/tutors/online-tutors/Jay-R-4890854/" title="Chegg tutor profile">Chegg</a>.</li>
             </ul>
         </article>
         
