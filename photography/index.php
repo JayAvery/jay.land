@@ -21,12 +21,12 @@
     	<a class="article" href="/photography/plants"><article>
     		<h4>Plants and fungi</h4>
     		<p>Photographs of wild british plants, moss, and fungi.</p>
-    		<img class="article-thumb"> src="/images/IMG_9614.jpg">
+    		<img class="article-thumb" src="/images/IMG_9614.jpg">
 		</article></a>
 		<a class="article" href="/photography/farm"><article>
 			<h4>Farm animals</h4>
 			<p>Photographs of british sheep.</p>
-			<img class="article-thumb"> src="/images/IMG_2487.jpg">
+			<img class="article-thumb" src="/images/IMG_2487.jpg">
 		</article></a>
         
     </main>
