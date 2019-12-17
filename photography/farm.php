@@ -23,7 +23,9 @@
                     '2451' => 'Scrambling',
                     '2455' => 'Goodbye',
                     '2487' => 'Smile',
-                    '6010' => 'Hello'
+                    '6010' => 'Hello',
+		    '2491' => 'Curious',
+		    '2488' => 'Yelling'
                 );
                 gallery($images);
             ?>
