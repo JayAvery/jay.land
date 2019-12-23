@@ -25,7 +25,8 @@
                     '2487' => 'Smile',
                     '6010' => 'Hello',
 		    '2491' => 'Curious',
-		    '2488' => 'Yelling'
+		    '2488' => 'Yelling',
+		    '2000' => 'Stare'
                 );
                 gallery($images);
             ?>
