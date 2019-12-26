@@ -13,7 +13,7 @@
        
         <?php query_redirect(); ?>
         
-        <h3 id="introduction">This is my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em>, description of autistic traits and autistic people.</h3>
+        <h3 id="introduction">This is my best attempt at an <em>inclusive</em>, <em>accurate</em>, <em>useful</em>, and <em>value-neutral</em> description of autistic traits and autistic people.</h3>
         
         <article>
             
@@ -40,7 +40,7 @@
 
             <p>A lot of the things I've written feature directly opposite examples, like "may hate X" and "may love X". This isn't a mistake, it's a reflection of how varied autistic people can be. Often, autistic people occupy extreme ends of the bell curve in any trait - but not necessarily the same end. Because I wrote this list to be inclusive, no autistic person will have every trait on it. That would be impossible, since many of them are mutually exclusive!</p>
 
-            <p>The point is to include the widest possible range of  autistic traits, not the minimum range of criteria needed to define autism. Instead of showing what things every autistic person will have in common (which would result in the kind of pitifully small and generally useless descriptions found elsewhere), this list intends to show you the greatest diversity you can expect to encounter among autistic people.</p>
+            <p>The point is to include the widest possible range of autistic traits, not the minimum range of criteria needed to define autism. Instead of showing what things every autistic person will have in common (which would result in the kind of pitifully small and generally useless descriptions found elsewhere), this list intends to show you the greatest diversity you can expect to encounter among autistic people.</p>
             
         </section>
         <section id="the-list">
@@ -74,7 +74,7 @@
                                 <li>May use gestures more often than others.</li>
                             </ul>
                         </li>
-	                    <li>D. Different use of facial expressions.
+	                    <li>Different use of facial expressions.
                             <ul class="spaced-list">
                                 <li>May use less variation in facial expression than others.</li>
                                 <li>May not deliberately use facial expressions to communicate.</li>
@@ -174,7 +174,7 @@
                         <li>Visual stimming.
                             <ul class="spaced-list">
                                 <li>May stare at certain lights, patterns, shapes or colours.</li>
-                                <li>May stare at certain moving objects, changing or flashing lights.</li>
+                                <li>May stare at certain moving objects, or changing/flashing lights.</li>
                             </ul>
                         </li>
                         <li>Pressure stimming.
@@ -243,7 +243,7 @@
             
             <h6 class="subsection">Cognitive</h6>
             <ol class="spaced-list">
-                <li>Strength of focus and rigidity.
+                <li>Rigidity and strength of focus.
                     <ol class="spaced-list">
                         <li>Intense focus and interests.
                             <ul class="spaced-list">
@@ -268,7 +268,7 @@
                         <li>Differences in executive function.
                             <ul class="spaced-list">
                                 <li>May have strengths or weaknesses in one or more types of memory (e.g. short-term, long-term).</li>
-                                <li>May have difficult planning and executing a series of steps or actions.</li>
+                                <li>May have difficulty planning and executing a series of steps or actions.</li>
                                 <li>May have difficulty identifying and solving problems.</li>
                                 <li>May have difficulty concentrating on relevant information or input.</li>
                                 <li>May have difficult starting, stopping, or changing activities.</li>
