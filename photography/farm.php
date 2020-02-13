@@ -22,7 +22,7 @@
                 	'2187' => 'Sunny',
                 	'2196' => 'Backlit',
                 	'2201' => 'Windswept',
-                	'2213' => 'Round'
+                	'2213' => 'Round',
                     '2412' => 'Mouthful',
                     '2418' => 'Relaxed smile',
                     '2424' => 'Laughing',
