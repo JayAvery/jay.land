@@ -16,17 +16,22 @@
         <a class="article" href="/photography/animals"><article>
         	<h4>Wild animals</h4>
         	<p>Photographs of wild british birds, mammals, and insects.</p>
-        	<img class="article-thumb" src="/images/IMG_1415.jpg">
+        	<img class="article-thumb" src="/images/animals/IMG_1415.jpg">
     	</article></a>
     	<a class="article" href="/photography/plants"><article>
     		<h4>Plants and fungi</h4>
     		<p>Photographs of wild british plants, moss, and fungi.</p>
-    		<img class="article-thumb" src="/images/IMG_9614.jpg">
+    		<img class="article-thumb" src="/images/plants/IMG_9614.jpg">
 		</article></a>
 		<a class="article" href="/photography/farm"><article>
 			<h4>Farm animals</h4>
 			<p>Photographs of british sheep.</p>
-			<img class="article-thumb" src="/images/IMG_2487.jpg">
+			<img class="article-thumb" src="/images/farm/IMG_2487.jpg">
+		</article></a>
+		<a class="article" href="/photography/microscopy"><article>
+			<h4>Microscopy</h4>
+			<p>Photographs through the microscope.</p>
+			<img class="article-thumb" src="/images/microscopy/IMG_1416.jpg">
 		</article></a>
         
     </main>
