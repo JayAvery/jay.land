@@ -125,12 +125,12 @@
     }
 
     /* Take a map of image numbers and captions and output a shuffled gallery of lightbox thumbnails. */
-    function gallery($images) {
+    function gallery($folder, $images) {
         
         $numbers = array_keys($images);
         shuffle($numbers);
         foreach($numbers as $number) {
-            echo '<figure><a class="lightbox" href="/images/IMG_' . $number . '.JPG" title="' . $images[$number] . '"><img class="thumb" src="/images/IMG_' . $number . '_T.JPG"/></a></figure>';
+            echo '<figure><a class="lightbox" href="/images/' . $folder . '/IMG_' . $number . '.JPG" title="' . $images[$number] . '"><img class="thumb" src="/images/' . $folder . '/IMG_' . $number . '_T.JPG"/></a></figure>';
         }
     }
 

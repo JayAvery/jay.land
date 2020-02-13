@@ -17,16 +17,21 @@
             
             <?php
                 $images = array(
-                    '6004' => 'Catherine\'s moss capsule',
+                	'1886' => 'Atrichum undulatum',
+                	'1892' => 'Polytrichastrum formosum',
+                	'1903' => 'Dicranella heteromalla',
+                	'1925' => 'Brachythecium rutabulum',
+                	'2086' => 'Polytrichum piliferum',
+                    '6004' => 'Atrichum undulatum capsule',
                     '6005' => 'Candlesnuff fungus',
                     '6006' => 'Hypnum moss',
                     '6007' => 'Moss landscape',
                     '6008' => 'Frosted moss',
                     '6009' => 'Frosty moss capsules',
-                    '9309' => 'Common liverwort',
-                    '9614' => 'Moss pillow'
+                    '9309' => 'Marchantia polymorpha',
+                    '9614' => 'Syntrichia ruralis'
                 );
-                gallery($images);
+                gallery('plants', $images);
             ?>
             
         </article>

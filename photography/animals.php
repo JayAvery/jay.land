@@ -24,7 +24,9 @@
                     '1501' => 'Female palmate newt',
                     '1589' => 'Canada gosling enjoying the daisies',
                     '1598' => 'Juvenile coot yelling',
+                    '2014' => 'Shouting blackbird',
                     '2023' => 'Scruffy long-tailed tit',
+                    '2042' => 'Collared dove',
                     '2363' => 'Lurking rabbit',
                     '2400' => 'Labyrinth spider in heather',
                     '2482' => 'Pheasant',
@@ -38,7 +40,7 @@
                     '4790' => 'Majestic wood pigeon',
                     '4909' => 'Jay',
                     '5366' => 'Kestrel in flight',
-                    '6001' => 'Dunnock',
+                    '6001' => 'Curious dunnock',
                     '6057' => 'Sand martin in flight',
                     '6948' => 'Lapwing in flight',
                     '7040' => 'Roe buck',
@@ -50,7 +52,7 @@
                     '9115' => 'Hoverfly on thistle',
                     '9478' => 'Bloody-nosed beetle'
                 );
-                gallery($images); 
+                gallery('animals', $images); 
             ?> 
             
         </article>
