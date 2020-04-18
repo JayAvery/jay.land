@@ -206,11 +206,11 @@
         		
         		<figure><a href="/images/creative/IMG_5236.JPG" class="lightbox" title="Wire pocket stitching in progress under the sewing machine foot"><img class="embedded" src="/images/creative/IMG_5236.JPG"/></a></figure>
         
-        		<p>Then sew all the way along, parallel with the top edge, until you reach the other end of the wire pocket. Stop there (don't sew back up to the top yet!). When you're done you'll have two sides of the wire pocket stitched, with loose threads coming from each lower corner.</p>
+        		<p>Then sew all the way along, parallel with the top edge, until you reach the other end of the wire pocket. Stop there, leaving the end open for the wire to go in. When you're done you'll have one side and the bottom of the wire pocket stitched, with loose threads coming from each lower corner.</p>
         		
         		<figure><a href="/images/creative/IMG_5238.JPG" class="lightbox" title="Stitched wire pocket with loose threads"><img class="embedded" src="/images/creative/IMG_5238.JPG"/></a></figure>
         
-        		<p>Now put the wire into the pocket. Slide it in through the bottom opening, and then shuffle it into the pocket through the open edge.</p>
+        		<p>Now put the wire into the pocket. Slide it in through the bottom opening, and then shuffle it into the pocket through the open edge. You'll close the end when sewing in the loose threads.</p>
         		
         		<figure><a href="/images/creative/IMG_5239.JPG" class="lightbox" title="Hand sliding wire into bottom opening"><img class="embedded" src="/images/creative/IMG_5239.JPG"/></a></figure>
         
