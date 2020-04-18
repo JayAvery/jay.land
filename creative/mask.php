@@ -35,7 +35,7 @@
 	        		<li>Option A, Ear loops. Easiest to put on and off, can feel less secure and less comfortable when worn for a long time.</li>
 	        		<li>Option B, Head straps. A bit awkward to put on and off, good for adjusting the fit and positioning, good use of old bra straps!</li>
 	        		<li>Option C, Tie ribbons. Most versatile for tying around the head or into ear loops, can come untied when worn for a long time. </li>
-        		<ul>
+        		</ul>
         		
         		<p> Most of the construction is the same for all the fastenings, but step 2 will vary and you'll need slightly different materials.</p>
         		
