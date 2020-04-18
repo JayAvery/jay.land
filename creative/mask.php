@@ -11,7 +11,7 @@
         
     <main class="narrow">
     
-        <h3 id="introduction">A photo tutorial for the fabric face mask pattern designed by me and Cassian.</h3>
+        <h3 id="introduction">A photo tutorial for the fabric face mask pattern designed by me and <a href="https://twitter.com/cassolotl">Cassian</a>.</h3>
         
         <article>
         
@@ -34,10 +34,10 @@
 	        	<ul>
 	        		<li>Option A, Ear loops. Easiest to put on and off, can feel less secure and less comfortable when worn for a long time.</li>
 	        		<li>Option B, Head straps. A bit awkward to put on and off, good for adjusting the fit and positioning, good use of old bra straps!</li>
-	        		<li>Option C, Tie ribbons. Most versatile for tying around the head or into ear loops, can come untied when worn for a long time. </li>
+	        		<li>Option C, Tie ribbons. Most versatile for tying around the head or into ear loops, can come untied when worn for a long time, may fray or degrade with wear and washing. </li>
         		</ul>
         		
-        		<p> Most of the construction is the same for all the fastenings, but step 2 will vary and you'll need slightly different materials.</p>
+        		<p> Most of the construction is the same for all the fastenings, they just take slightly different materials.</p>
         		
 	        	<p>You'll need some equipment:</p>
 	        	<ul>
@@ -56,19 +56,21 @@
         		<ul>
         			<li>A 36cm × 20cm rectangle of fabric. The best fabric is high thread count woven cotton, like the type used for quilting. Whatever colour or pattern you like.</li>
         			<li>Some thread. Whatever colour you like, to match or contrast your fabric.</li>
-        			<li>A 9cm length of non-rusting wire (optional but recommended).</li>
+        			<li>A 9cm length of non-rusting wire (optional but recommended). 4mm flat aluminium jewelery wire is ideal.</li>
 					<li>One of:
 						<ul>
 							<li>For Option A, Ear loops: Two 16cm lengths of elastic. About 5mm wide elastic ribbon is ideal. Whatever colour you like, to match or contrast your fabric.</li>
 							<li>For Option B, Head straps: Two reclaimed adjustable bra straps at least 40cm long. About 5-10mm wide straps are ideal. Whatever colour you like, to match or contrast your fabric.</li>
-							<li>For Option C, Tie ribbons: Four 40cm lengths of ribbon. About 5-10mm wide is ideal, and preferably with a ridged texture to hold knots better. Whatever colour you like, to match or contrast your fabric. To stop the ribbons fraying, melt the ends by waving them momentarily in a candle or lighter flame.</li>
+							<li>For Option C, Tie ribbons: Four 40cm lengths of ribbon. About 5-10mm wide is ideal, and preferably with a ridged texture to hold knots better. Whatever colour you like, to match or contrast your fabric. To stop the ribbons fraying, singe the ends by waving them momentarily in a candle or lighter flame.</li>
 						</ul>
 					</li>
 				</ul>
 				
-				<p>Fold the rectangle of fabric in half along the long edge, with the good side of the fabric on the <em>inside</em>. The fabric in these photos is symmetrical, but if yours only has the pattern on one side then put that on the inside.</p>
+				<p>Fold the rectangle of fabric in half along the long edge, with the good side of the fabric on the <em>inside</em>. The fabric in these photos is reversible, but if yours only has the pattern on one side then put that on the inside.</p>
 				
-				<p>The next steps will be easier if you iron the fabric in this folded shape. Add a few pins along the sides to keep it together and flat. For the rest of the instructions, the folded edge will be the top and the open edge will be the bottom.</p>
+				<p>If you have one, iron the fabric in this folded shape, it will make the next steps easier.</p>
+				
+				<p>Add a few pins along the sides to keep it together and flat. For the rest of the instructions, the folded edge will be the top and the open edge will be the bottom.</p>
 				
         		<figure><a href="/images/creative/IMG_5191.JPG" class="lightbox" title="Folded and pinned rectangle of purple fabric"><img class="embedded" src="/images/creative/IMG_5191.JPG"/></a></figure>
 				
@@ -94,7 +96,7 @@
 	        	
         		<figure><a href="/images/creative/Ear loops diagram.JPG" class="lightbox" title="Diagram showing ear loops positioned between layers of fabric"><img class="embedded" src="/images/creative/Ear loops diagram.JPG"/></a></figure>
 	        	
-	        	<p>Slide one piece of elastic in through the opening at the bottom. Then push one end of it out the side, near the top corner. Leave just a couple of mm space from the top edge, and about 5mm of the elastic extending out of the side, then pin in place.</p>
+	        	<p>Slide one piece of elastic in through the opening at the bottom. Then push one end of it out the side, near the top corner. Leave just a couple of millimetres space from the top edge, and about 5mm of the elastic extending out of the side, then pin in place.</p>
 	        	
         		<figure><a href="/images/creative/IMG_5194.JPG" class="lightbox" title="End of elastic sticking out between fabric layers"><img class="embedded" src="/images/creative/IMG_5194.JPG"/></a></figure>
 	        	
@@ -106,7 +108,7 @@
 	        	
 	        	<figure><a href="/images/creative/IMG_5195.JPG" class="lightbox" title="End of elastic sticking out between crumpled fabric layers"><img class="embedded" src="/images/creative/IMG_5195.JPG"/></a></figure>
 	        	
-	        	<p>Repeat the same operation with the second elastic on the other side. When you're done you'll have a horrifying crumpled mess like this:</p>
+	        	<p>Repeat the same operation with the second elastic on the other side. When you're done you'll have a horrifying crumpled mess like this (don't worry, it will make sense again later):</p>
 	        	
 	        	<figure><a href="/images/creative/IMG_5198.JPG" class="lightbox" title="Crumpled pinned fabric"><img class="embedded" src="/images/creative/IMG_5198.JPG"/></a></figure>
 	        
@@ -116,7 +118,7 @@
 	        	
 	        	<figure><a href="/images/creative/Head straps diagram.jpg" class="lightbox" title="Diagram showing head straps positioned between layers of fabric"><img class="embedded" src="/images/creative/Head straps diagram.jpg"/></a></figure>
 	        
-	        	<p>Slide one strap in through the opening at the bottom. Then push one end of it out of the side, near the top corner. Leave just a couple of mm from the top edge, and about 5mm of the strap extending out of the side, then pin in place.</p>
+	        	<p>Slide one strap in through the opening at the bottom. Then push one end of it out of the side, near the top corner. Leave just a couple of millimetres from the top edge, and about 5mm of the strap extending out of the side, then pin in place.</p>
 	        	
 	        	<figure><a href="/images/creative/IMG_5211.JPG" class="lightbox" title="End of strap sticking out between fabric layers"><img class="embedded" src="/images/creative/IMG_5211.JPG"/></a></figure>
 	        
@@ -128,7 +130,7 @@
 	        	
 	        	<figure><a href="/images/creative/IMG_5214.JPG" class="lightbox" title="End of strap sticking out between bottom fabric layers"><img class="embedded" src="/images/creative/IMG_5214.JPG"/></a></figure>
 	        	
-	        	<p>Repeat with the other end of the strap on the other side, making sure not to twist it. When you're done you'll have a lumpy mess like this:</p>
+	        	<p>Repeat with the other end of the strap on the other side, making sure not to twist it. When you're done you'll have a lumpy mess like this (don't worry, it will make sense again later):</p>
 	        	
 	        	<figure><a href="/images/creative/IMG_5216.JPG" class="lightbox" title="Lumpy pinned fabric"><img class="embedded" src="/images/creative/IMG_5216.JPG"/></a></figure>
 	        
@@ -138,7 +140,7 @@
 	        	
 	        	<figure><a href="/images/creative/Tie ribbons diagram.JPG" class="lightbox" title="Diagram showing ribbons positioned between layers of fabric"><img class="embedded" src="/images/creative/Tie ribbons diagram.JPG"/></a></figure>
 	        
-	        	<p>Slide on piece of ribbon in through the opening at the bottom. Then push one end of it out of the side, near the top corner. Leave just a couple of mm from the top (folded) edge, and about 5mm of the ribbon extending out of the side, then pin in place.</p>
+	        	<p>Slide one piece of ribbon in through the opening at the bottom. Then push one end of it out of the side, near the top corner. Leave just a couple of millimetres from the top (folded) edge, and about 5mm of the ribbon extending out of the side, then pin in place.</p>
 	        	
 	        	<figure><a href="/images/creative/IMG_5226.JPG" class="lightbox" title="End of ribbon sticking out between fabric layers"><img class="embedded" src="/images/creative/IMG_5226.JPG"/></a></figure>
 	        
@@ -162,7 +164,7 @@
 	        	
 	        	<figure><a href="/images/creative/Side seam diagram.JPG" class="lightbox" title="Diagram showing line of stitching along the side of the mask"><img class="embedded" src="/images/creative/Side seam diagram.JPG"/></a></figure>
 	        
-	        	<p> Start a cm or two below the upper fastening, and sew a straight line over it until you reach the top edge. Then turn around and sew a straight line all the way back down to the bottom edge.</p>
+	        	<p> Start a centimetre or two below the upper fastening, and sew a straight line over it until you reach the top edge. Then turn around and sew a straight line all the way back down to the bottom edge.</p>
 	        	
 	        	<figure><a href="/images/creative/IMG_5200.JPG" class="lightbox" title="Side seam in progress under a sewing machine foot"><img class="embedded" src="/images/creative/IMG_5200.JPG"/></a></figure>
 	        
@@ -170,7 +172,7 @@
 	        	
 	        	<figure><a href="/images/creative/IMG_5201.JPG" class="lightbox" title="Hand spreading out fabric under a sewing machine foot"><img class="embedded" src="/images/creative/IMG_5201.JPG"/></a></figure>
 	        	
-	        	<p>Then turn once more and sew back again until a cm or two above the lower fastening. When you're done you'll have a straight line of stitching with two sets of loose threads, one near each of the fastenings.</p>
+	        	<p>Then turn once more and sew back again until a centimetre or two above the lower fastening. When you're done you'll have a straight line of stitching with two sets of loose threads, one near each of the fastenings.</p>
 	        	
 	        	<figure><a href="/images/creative/IMG_5203.JPG" class="lightbox" title="Finished side seam with loose threads"><img class="embedded" src="/images/creative/IMG_5203.JPG"/></a></figure>
 	        
@@ -218,7 +220,7 @@
         	
         		<h4 class="section">5. Bottom seam</h4>
         		
-        		<p>To finish the bottom, both raw edges of fabric need to be folded inwards together. It can be fiddly, but it's easiest if you start folding in the middle and then work out towards the sides.</p>
+        		<p>To finish the bottom, both raw edges of fabric need to be folded inwards together. It can be fiddly, but it's easiest if you start folding in the middle and then work out towards the sides. Ironing the side seams flat first can also help (although don't do that if you used synthetic ribbon!).</p>
         		
         		<figure><a href="/images/creative/IMG_5240.JPG" class="lightbox" title="Hand folding bottom edges inwards together"><img class="embedded" src="/images/creative/IMG_5240.JPG"/></a></figure>
         		
@@ -236,7 +238,7 @@
 			
 				<h4 class="section">6. Pleats</h4>
 				
-				<p>Pleats are scary if you haven't done them before, but there are lots of pictures and diagrams to help! There will be three pleats on the finished mask. Some patterns use lots of repeated measuring and ironing to get them perfectly lined up, but we found it more intuitive (and much less faff) to just approximate them by hand. It's not the end of the world if they aren't perfectly centred or exactly the same size.</p>
+				<p>Pleats are scary if you haven't done them before, but there are lots of pictures and diagrams to help! There will be three pleats on the finished mask. Some patterns use lots of repeated measuring and ironing to get them perfectly lined up, but we found it more intuitive (and much less faff) to just approximate them by hand. It's not the end of the world if they aren't perfectly centred or exactly the same size, you won't be able to tell when the mask is on anyway.</p>
 				
 				<p>To make each pleat, a pair of points on the fabric are brought together to touch, making a loop in between them. That loop gets flattened down so that there's a zigzag in the fabric, and then sewn over in place. If it helps, you can mark the six points on the edge of the mask before you start so that it's easier to keep track of what you're doing.</p>
 				
@@ -306,9 +308,9 @@
 				
 				<figure><a href="/images/creative/IMG_5261.JPG" class="lightbox" title="Nose wire pocket sealed by hand"><img class="embedded" src="/images/creative/IMG_5261.JPG"/></a></figure>
 
-				<p>Once the loose threads are dealt with, you have a finished and usable mask!</p>
+				<p>Once the loose threads are dealt with, you have a finished and usable mask!<span class="dot"></span</p>
 				
-				<figure><a href="/images/creative/IMG_5236.JPG" class="lightbox" title="Finished masks with each type of fastening"><img class="embedded" src="/images/creative/IMG_5236.JPG"/></a></figure>
+				<figure><a href="/images/creative/IMG_5263.JPG" class="lightbox" title="Finished masks with each type of fastening"><img class="embedded" src="/images/creative/IMG_5263.JPG"/></a></figure>
 
 				<figure><a href="/images/creative/IMG_5265.JPG" class="lightbox" title="Finished mask with the nose wire shaped and pleats expanded"><img class="embedded" src="/images/creative/IMG_5265.JPG"/></a></figure>
 				
