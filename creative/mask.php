@@ -276,7 +276,7 @@
 				
 				<figure><a href="/images/creative/IMG_5252.JPG" class="lightbox" title="Second pinned pleat on one edge"><img class="embedded" src="/images/creative/IMG_5252.JPG"/></a></figure>
 
-				<p>Now the process continues in the same way. Follow the newly-pinned fold along the mask to the other side, flatten it there and pin. Then bring the together the last pair of points on one side together.</p>
+				<p>Now the process continues in the same way. Follow the newly-pinned fold along the mask to the other side, flatten it there and pin. Then bring the last pair of points on one side together.</p>
 				
 				<figure><a href="/images/creative/IMG_5253.JPG" class="lightbox" title="Fingers pointing at edges of the mask next to two pinned pleats"><img class="embedded" src="/images/creative/IMG_5253.JPG"/></a></figure>
 
