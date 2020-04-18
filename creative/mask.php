@@ -11,7 +11,7 @@
         
     <main class="narrow">
     
-        <h3 id="introduction">This is a photo tutorial for the fabric face mask pattern designed by me and Cassian.</h3>
+        <h3 id="introduction">A photo tutorial for the fabric face mask pattern designed by me and Cassian.</h3>
         
         <article>
         
@@ -25,7 +25,7 @@
 	        
 	        <section>
 	        
-	        	<h4>1. Preparation</h4>
+	        	<h4 class="section">1. Preparation</h4>
 	        	
 	        	<p>Start by deciding what type of fastening to make. There are three options:</p>
 	        	
@@ -66,11 +66,17 @@
 					</li>
 				</ul>
 				
-				<p>Fold the rectangle of fabric in half along the long edge, with the good side of the fabric on the <em>inside</em>. The fabric in these photos is symmetrical, but if yours only has the pattern on one side then put that on the inside. The next steps will be easier if you iron the fabric in this folded shape. Add a few pins along the sides to keep it together and flat. For the rest of the instructions, the folded edge will be the top and the open edge will be the bottom.</p>
+				<p>Fold the rectangle of fabric in half along the long edge, with the good side of the fabric on the <em>inside</em>. The fabric in these photos is symmetrical, but if yours only has the pattern on one side then put that on the inside.</p>
+				
+				<p>The next steps will be easier if you iron the fabric in this folded shape. Add a few pins along the sides to keep it together and flat. For the rest of the instructions, the folded edge will be the top and the open edge will be the bottom.</p>
 				
         		<figure><a href="/images/creative/IMG_5191.JPG" class="lightbox" title="Folded and pinned rectangle of purple fabric"><img class="embedded" src="/images/creative/IMG_5191.JPG"/></a></figure>
 				
-				<h4>1b. Remove cat from workspace</h4>
+			</section>
+			
+			<section>
+				
+				<h4 class="section">1b. Remove cat from workspace</h4>
 				
         		<figure><a href="/images/creative/IMG_5192.JPG" class="lightbox" title="Tortoiseshell cat sniffing sewing equipment on a table"><img class="embedded" src="/images/creative/IMG_5192.JPG"/></a></figure>
 	        
@@ -78,11 +84,11 @@
 	        
 	        <section>
 	        
-	        	<h4> 2. Fastenings</h4>
+	        	<h4 class="section"> 2. Fastenings</h4>
 	        	
 	        	<p>The mask is currently inside-out, so the fastenings are going to be attached on the inside. It's difficult to describe the process but there are diagrams!</p>
 	        	
-	        	<h6>Option A, Ear loops</h6>
+	        	<h6 class="subsection">Option A, Ear loops</h6>
 	        	
 	        	<p>Each ear loop is going in between the layers of fabric, and with just a small amount sticking out at the top and bottom where it will be attached.</p>
 	        	
@@ -104,13 +110,13 @@
 	        	
 	        	<figure><a href="/images/creative/IMG_5198.JPG" class="lightbox" title="Crumpled pinned fabric"><img class="embedded" src="/images/creative/IMG_5198.JPG"/></a></figure>
 	        
-	        	<h6>Option B, Head straps</h6>
+	        	<h6 class="subsection">Option B, Head straps</h6>
 	        	
 	        	<p> Each head strap is going in between the layers of fabric, and with just a small amount sticking out at either side where it will be attached.</p>
 	        	
 	        	<figure><a href="/images/creative/Head straps diagram.jpg" class="lightbox" title="Diagram showing head straps positioned between layers of fabric"><img class="embedded" src="/images/creative/Head straps diagram.jpg"/></a></figure>
 	        
-	        	<p>Slide one strap in through the opening at the bottom. Then push one end of it out of the side, near the top corner. Leave just a couple of mm from the top (folded) edge, and about 5mm of the strap extending out of the side, then pin in place.</p>
+	        	<p>Slide one strap in through the opening at the bottom. Then push one end of it out of the side, near the top corner. Leave just a couple of mm from the top edge, and about 5mm of the strap extending out of the side, then pin in place.</p>
 	        	
 	        	<figure><a href="/images/creative/IMG_5211.JPG" class="lightbox" title="End of strap sticking out between fabric layers"><img class="embedded" src="/images/creative/IMG_5211.JPG"/></a></figure>
 	        
@@ -126,7 +132,7 @@
 	        	
 	        	<figure><a href="/images/creative/IMG_5216.JPG" class="lightbox" title="Lumpy pinned fabric"><img class="embedded" src="/images/creative/IMG_5216.JPG"/></a></figure>
 	        
-	        	<h6>Option C, Tie ribbons</h6>
+	        	<h6 class="subsection">Option C, Tie ribbons</h6>
 	        	
 	        	<p>Each ribbon is going in between the layers of fabric, and with just a small amount sticking out at each corner where it will be attached.</p>
 	        	
@@ -148,9 +154,11 @@
 	        
 	        <section>
 	        
-	        	<h4>3. Side seams</h4>
+	        	<h4 class="section">3. Side seams</h4>
 	        	
-	        	<p>The rest of the construction is the same for all the options. With your fastenings pinned in place it's time to sew the sides. It just needs a straight line of plain stitches down each side, but it's a good idea to double back at the top and bottom so that the fastening gets extra reinforcement. So the line of stitching starts slightly below the upper fastening, goes up to the top edge, then all the way down the bottom, then back up again and ends slightly above the lower fastening:</p>
+	        	<p>The rest of the construction is the same for all the options. With your fastenings pinned in place it's time to sew the sides. It just needs a straight line of plain stitches down each side, but it's a good idea to double back at the top and bottom so that the fastenings get extra reinforcement.</p>
+	        	
+	        	<p>So the line of stitching starts slightly below the upper fastening, goes up to the top edge, then all the way down the bottom, then back up again and ends slightly above the lower fastening.</p>
 	        	
 	        	<figure><a href="/images/creative/Side seam diagram.JPG" class="lightbox" title="Diagram showing line of stitching along the side of the mask"><img class="embedded" src="/images/creative/Side seam diagram.JPG"/></a></figure>
 	        
@@ -178,7 +186,7 @@
 	        
 	        <section>
 	        
-	        	<h4>4. Nose wire</h4>
+	        	<h4 class="section">4. Nose wire</h4>
 	        	
 	        	<p>Skip this step if you don't have any wire.</p>
 	        	
@@ -186,11 +194,13 @@
 	        	
 	        	<figure><a href="/images/creative/IMG_5233.JPG" class="lightbox" title="Strip of wire held on top of fabric"><img class="embedded" src="/images/creative/IMG_5233.JPG"/></a></figure>
 	        
-	        	<p>There's going to be a line of stitching along one end of the wire pocket and the whole bottom edge, but leaving a gap at the other end. For extra reinforcement it's a good idea to go over the the end twice. So the line of stitching starts at one bottom corner of the wire pocket, goes up, then back down, then all the way along and finishes at the other bottom corner.</p>
+	        	<p>There's going to be a line of stitching along one end of the wire pocket and the whole bottom edge, but leaving a gap at the other end. For extra reinforcement it's a good idea to go over the the end twice.</p>
+	        	
+	        	<p>So the line of stitching starts at one bottom corner of the wire pocket, goes up, then back down, then all the way along and finishes at the other bottom corner.</p>
 	        	
 	        	<figure><a href="/images/creative/Wire pocket diagram.JPG" class="lightbox" title="Diagram showing line of stitching around wire pocket"><img class="embedded" src="/images/creative/Wire pocket diagram.JPG"/></a></figure>
         
-        		<p>Start at the bottom corner of one of the markings for the wire, and sew a straight line up to the top egde (probably only a couple of stitches). Then turn around a sew a straight line back to the same place.</p>
+        		<p>Start at the bottom corner of one of the markings for the wire, and sew a straight line up to the top edge (probably only a couple of stitches). Then turn around and sew a straight line back to the same place.</p>
         		
         		<figure><a href="/images/creative/IMG_5236.JPG" class="lightbox" title="Wire pocket stitching in progress under the sewing machine foot"><img class="embedded" src="/images/creative/IMG_5236.JPG"/></a></figure>
         
@@ -198,7 +208,7 @@
         		
         		<figure><a href="/images/creative/IMG_5238.JPG" class="lightbox" title="Stitched wire pocket with loose threads"><img class="embedded" src="/images/creative/IMG_5238.JPG"/></a></figure>
         
-        		<p>Now put the wire into the pocket! Slide it in through the bottom opening, and then shuffle it into the pocket through the open edge.</p>
+        		<p>Now put the wire into the pocket. Slide it in through the bottom opening, and then shuffle it into the pocket through the open edge.</p>
         		
         		<figure><a href="/images/creative/IMG_5239.JPG" class="lightbox" title="Hand sliding wire into bottom opening"><img class="embedded" src="/images/creative/IMG_5239.JPG"/></a></figure>
         
@@ -206,17 +216,17 @@
         	
         	<section>
         	
-        		<h4>5. Bottom seam</h4>
+        		<h4 class="section">5. Bottom seam</h4>
         		
-        		<p>To finish the bottom, both raw edges of fabric need to be folded inwards together. It can be fiddly, but easiest if you start folding in the middle and then work out towards the sides.</p>
+        		<p>To finish the bottom, both raw edges of fabric need to be folded inwards together. It can be fiddly, but it's easiest if you start folding in the middle and then work out towards the sides.</p>
         		
         		<figure><a href="/images/creative/IMG_5240.JPG" class="lightbox" title="Hand folding bottom edges inwards together"><img class="embedded" src="/images/creative/IMG_5240.JPG"/></a></figure>
         		
-        		<p>Once the edges are folded and straight, pin in place all the way along the bottom.</p>
+        		<p>Aim for about 5-10mm folded over, it doesn't need to be very precise as long as it's enough to pin in place and not so much that it interferes with the fastenings. Once the edges are folded and straight, pin in place all the way along the bottom.</p>
         		
         		<figure><a href="/images/creative/IMG_5241.JPG" class="lightbox" title="Bottom edge folded and pinned"><img class="embedded" src="/images/creative/IMG_5241.JPG"/></a></figure>
         		
-        		<p>Now sew a straight line all the way along. Aim to stitch about 1-2mm away from the edge for the neatest result.</p>
+        		<p>Now sew a straight line all the way along. Try to stitch about 1-2mm away from the edge for the neatest result.</p>
         		
         		<figure><a href="/images/creative/IMG_5242.JPG" class="lightbox" title="Bottom edge stitched"><img class="embedded" src="/images/creative/IMG_5242.JPG"/></a></figure>
         	
@@ -224,11 +234,11 @@
 			
 			<section>
 			
-				<h4>6. Pleats</h4>
+				<h4 class="section">6. Pleats</h4>
 				
 				<p>Pleats are scary if you haven't done them before, but there are lots of pictures and diagrams to help! There will be three pleats on the finished mask. Some patterns use lots of repeated measuring and ironing to get them perfectly lined up, but we found it more intuitive (and much less faff) to just approximate them by hand. It's not the end of the world if they aren't perfectly centred or exactly the same size.</p>
 				
-				<p>To make each pleat, a pair of points on the fabric are brought together to touch, making a loop in between them. That loop gets flattened down so that there's a zigzag in the fabric, and then sewn over in place. If it helps, you can mark the points on the edge of the mask before you start so that it's easier to keep track of what you're doing.</p>
+				<p>To make each pleat, a pair of points on the fabric are brought together to touch, making a loop in between them. That loop gets flattened down so that there's a zigzag in the fabric, and then sewn over in place. If it helps, you can mark the six points on the edge of the mask before you start so that it's easier to keep track of what you're doing.</p>
 				
 				<figure><a href="/images/creative/Pleats diagram.JPG" class="lightbox" title="Diagram of the points to be formed into pleats along the side of the mask"><img class="embedded" src="/images/creative/Pleats diagram.JPG"/></a></figure>
 			
@@ -252,7 +262,7 @@
 				
 				<figure><a href="/images/creative/IMG_5248.JPG" class="lightbox" title="Another pleat pinned in place"><img class="embedded" src="/images/creative/IMG_5248.JPG"/></a></figure>
 				
-				<p>Now grab the next pair of points on one side/</p>
+				<p>Now grab the next pair of points on one side.</p>
 				
 				<figure><a href="/images/creative/IMG_5250.JPG" class="lightbox" title="Fingers pointing at edges of the mask next to a pinned pleat"><img class="embedded" src="/images/creative/IMG_5250.JPG"/></a></figure>
 				
@@ -290,19 +300,35 @@
 				
 			<section>
 			
-				<h4>7. Finishing</h4>
+				<h4 class="section">7. Finishing</h4>
 				
-				<p>The only thing left is to sew in the loose threads - a few stitches in place is fine. For the ends at the open side of the nose wire pocket, make so to go upwards so that the open end gets sealed and the wire won't be able to slip out.</p>
+				<p>The only thing left is to sew in the loose threads - a few stitches in place is fine. For the ends at the open side of the nose wire pocket, make sure to go upwards so that the open end gets sealed and the wire won't be able to slip out.</p>
 				
 				<figure><a href="/images/creative/IMG_5261.JPG" class="lightbox" title="Nose wire pocket sealed by hand"><img class="embedded" src="/images/creative/IMG_5261.JPG"/></a></figure>
 
 				<p>Once the loose threads are dealt with, you have a finished and usable mask!</p>
 				
-				<figure><a href="/images/creative/IMG_5236.JPG" class="lightbox" title="Finished masks with each type of fastening"><img class="embedded" src="/images/creative/IMG_5263.JPG"/></a></figure>
+				<figure><a href="/images/creative/IMG_5236.JPG" class="lightbox" title="Finished masks with each type of fastening"><img class="embedded" src="/images/creative/IMG_5236.JPG"/></a></figure>
 
 				<figure><a href="/images/creative/IMG_5265.JPG" class="lightbox" title="Finished mask with the nose wire shaped and pleats expanded"><img class="embedded" src="/images/creative/IMG_5265.JPG"/></a></figure>
 				
 			</section>
+			
+	        <section>
+            	
+            	<h4 class="section">Our masks</h4>
+            	
+            	<p>We developed this pattern when we started making fabric masks to give to our neighbours, which we post about on <a href="https://machsks.tumblr.com/">tumblr</a>. The pages there have more details about why people should wear masks, including lots of scientific sources and information.</p>
+
+            	<p>I have given this work a Creative Commons license that means anyone has permission to use, share, and modify it - as long as you credit me, don't sell it for money, and use the same license rules on your own versions. Please feel free to make your own masks or improve on this pattern for your own purposes!</p>
+        	
+        	</section>
+        
+	        <section id="creative-commons">
+	        
+	            <p id="cc-text"><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Fabric mask tutorial</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jay.land/creative/mask" property="cc:attributionName" rel="cc:attributionURL">Jay Avery</a> is licensed under a <em>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</em> - <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">view here</a>.</p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="cc-icon" alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+	        
+	        </section>
 			
         </article>
     

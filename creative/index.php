@@ -14,6 +14,11 @@
                 
         <h3 id="introduction">I make things a lot.</h3>
         
+        <a class="article" href="/creative/mask"><article>
+        	<h4 class="article">Fabric face mask tutorial</h4>
+        	<p class="summary">A picture tutorial for fabric face masks.</p>
+    	</article></a>
+        
         <a class="article" href="/creative/humancube"><article>
             <h4 class="article">The Humancube</h4>
             <p class="summary">I made a weird piece of furniture.</p>
