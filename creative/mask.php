@@ -144,7 +144,7 @@
 	        	
 	        	<figure><a href="/images/creative/IMG_5226.JPG" class="lightbox" title="End of ribbon sticking out between fabric layers"><img class="embedded" src="/images/creative/IMG_5226.JPG"/></a></figure>
 	        
-	        	<p>Do the same with another piece of ribbon at the other top corner. Then with a third piece, push the end of of a side near the bottom corner. Again leave 5mm of the ribbon extending out of the side, but this time leave about 15mm from the bottom edge (you're leaving space for a seam), and pin in place.</p>
+	        	<p>Do the same with another piece of ribbon at the other top corner. Then with a third piece, push the end out of the side near the bottom corner. Again leave 5mm of the ribbon extending out of the side, but this time leave about 15mm from the bottom edge (you're leaving space for a seam), and pin in place.</p>
 	        	
 	        	<figure><a href="/images/creative/IMG_5227.JPG" class="lightbox" title="End of ribbon sticking out between bottom fabric layers"><img class="embedded" src="/images/creative/IMG_5227.JPG"/></a></figure>
 	        
