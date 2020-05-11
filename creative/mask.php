@@ -61,7 +61,7 @@
 						<ul>
 							<li>For Option A, Ear loops: Two 16cm lengths of elastic. About 5mm wide elastic ribbon is ideal. Whatever colour you like, to match or contrast your fabric.</li>
 							<li>For Option B, Head straps: Two reclaimed adjustable bra straps at least 40cm long. About 5-10mm wide straps are ideal. Whatever colour you like, to match or contrast your fabric.</li>
-							<li>For Option C, Tie ribbons: Four 40cm lengths of ribbon. About 5-10mm wide is ideal, and preferably with a ridged texture to hold knots better. Whatever colour you like, to match or contrast your fabric. To stop the ribbons fraying, singe the ends by waving them momentarily in a candle or lighter flame. Synthetic materials might not cope with hot wash or dry cycles, so beware.</li>
+							<li>For Option C, Tie ribbons: Four 45cm lengths of ribbon. About 5-10mm wide is ideal, and preferably with a ridged texture to hold knots better. Whatever colour you like, to match or contrast your fabric. To stop the ribbons fraying, singe the ends by waving them momentarily in a candle or lighter flame. Synthetic materials might not cope with hot wash or dry cycles, so beware.</li>
 						</ul>
 					</li>
 				</ul>
