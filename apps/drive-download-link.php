@@ -16,6 +16,10 @@
     	<br>
     	
     	<textarea id="result" class="result" name="result"></textarea>
+    	
+    	<br>
+    	
+    	<textarea id="list" class="list" name="list"></textarea>
     
         
     </main>
@@ -31,11 +35,15 @@
 		    
 		    paste = paste.toUpperCase();
 		    var pasted = document.getElementById('result');
+		    var list = document.getElementById('list');
 		    pasted.value = paste;
+		    list.value = list.value.concat("\n", paste);
 		    
 		    pasted.select();
 		    document.execCommand("copy");
 		    target.select();
+		    
+		    
 		    
 		    event.preventDefault();
 		    
