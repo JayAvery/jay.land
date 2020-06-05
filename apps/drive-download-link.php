@@ -15,7 +15,7 @@
     	
     	<br>
     	
-    	<input type="text" id="result" class="result" name="result">
+    	<textarea id="result" class="result" name="result">
     
         
     </main>
