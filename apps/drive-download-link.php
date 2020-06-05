@@ -32,7 +32,6 @@
 		    
 		    pasted.select();
 		    document.execCommand("copy");
-		    document.getSelection().removeAllRanges();
 		    
 		    
 		});
