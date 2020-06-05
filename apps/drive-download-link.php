@@ -30,7 +30,7 @@
 		    
 		    paste = paste.toUpperCase();
 		    var pasted = document.getElementById('result');
-		    pasted.innerHTML = paste;
+		    pasted.value = paste;
 		    
 		 //   pasted.select();
 		 //   document.execCommand("copy");
