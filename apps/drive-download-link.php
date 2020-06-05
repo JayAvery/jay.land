@@ -13,6 +13,8 @@
     
     	<input type="text" id="paste-link" class="paste-link" name="paste-link">
     	
+    	<br>
+    	
     	<input type="text" id="result" class="result" name="result">
     
         
@@ -30,8 +32,8 @@
 		    var pasted = document.getElementById('result');
 		    pasted.innerHTML = paste;
 		    
-		    pasted.select();
-		    document.execCommand("copy");
+		 //   pasted.select();
+		 //   document.execCommand("copy");
 		    
 		    
 		});
