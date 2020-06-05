@@ -33,8 +33,8 @@
 		    pasted.value = paste;
 		    
 		    pasted.select();
-		    document.execCommand("copy");
-		    document.getSelection().removeAllRanges();
+		  //  document.execCommand("copy");
+		  //  document.getSelection().removeAllRanges();
 		    
 		    
 		});
