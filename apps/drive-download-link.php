@@ -13,20 +13,20 @@
     
     	<input type="text" id="paste-link" class="paste-link" name="paste-link">
     	
-    	<p class="result">[result]</p>
+    	<p id="result" class="result">[result]</p>
     
         
     </main>
     
     <script>
     
-    	const target = document.querySelector('#paste-link');
+    	const target = document.getElementById('paste-link');
 
 		target.addEventListener('paste', (event) => {
 		    let paste = (event.clipboardData || window.clipboardData).getData('text');
 		    paste = paste.toUpperCase();
 		 
-		    document.querySelector('#result').innerHTML = paste;
+		    document.getElementById('result').innerHTML = paste;
 		    
 		});
     
