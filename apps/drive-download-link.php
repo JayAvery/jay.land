@@ -13,7 +13,7 @@
     
     	<input type="text" id="paste-link" class="paste-link" name="paste-link">
     	
-    	<p id="result" class="result">[result]</p>
+    	<input type="text" id="result" class="result" name="result">
     
         
     </main>
@@ -27,7 +27,7 @@
 		    
 		    
 		    paste = paste.toUpperCase();
-		    let pasted = document.getElementById('result');
+		    var pasted = document.getElementById('result');
 		    pasted.innerHTML = paste;
 		    
 		    pasted.select();
