@@ -11,13 +11,19 @@
         
     <main class="narrow">
     
+    	<label for="paste-link">Paste your link here</label>
+    
     	<input type="text" id="paste-link" class="paste-link" name="paste-link">
     	
     	<br>
     	
+    	<label for="result">Converted URL</label>
+    	
     	<textarea id="result" class="result" name="result"></textarea>
     	
     	<br>
+    	
+    	<label for="list">All converted URLs</label>
     	
     	<textarea id="list" class="list" name="list"></textarea>
     
