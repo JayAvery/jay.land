@@ -32,8 +32,9 @@
 		    var pasted = document.getElementById('result');
 		    pasted.value = paste;
 		    
-		 //   pasted.select();
-		 //   document.execCommand("copy");
+		    pasted.select();
+		    document.execCommand("copy");
+		    document.getSelection().removeAllRanges();
 		    
 		    
 		});
