@@ -26,7 +26,7 @@
 
 		target.addEventListener('paste', (event) => {
 		    let paste = (event.clipboardData || window.clipboardData).getData('text');
-		    target.value = paste;
+		  //  target.value = paste;
 		    
 		    
 		    paste = paste.toUpperCase();
@@ -34,8 +34,8 @@
 		    pasted.value = paste;
 		    
 		    pasted.select();
-		  //  document.execCommand("copy");
-		  //  document.getSelection().removeAllRanges();
+		    document.execCommand("copy");
+		    target.select();
 		    
 		    event.preventDefault();
 		    
