@@ -24,9 +24,16 @@
 
 		target.addEventListener('paste', (event) => {
 		    let paste = (event.clipboardData || window.clipboardData).getData('text');
+		    
+		    
 		    paste = paste.toUpperCase();
-		 
-		    document.getElementById('result').innerHTML = paste;
+		    let pasted = document.getElementById('result');
+		    pasted.innerHTML = paste;
+		    
+		    pasted.select();
+		    document.execCommand("copy");
+		    document.getSelection().removeAllRanges();
+		    
 		    
 		});
     
