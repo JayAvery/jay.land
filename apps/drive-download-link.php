@@ -33,7 +33,7 @@
     
     <script>
     
-    	const pasteBox = document.getElementById('paste-link');
+    	const pasteBox = document.getElementById('paste-box');
 
 		pasteBox.addEventListener('paste', (event) => {
 		
