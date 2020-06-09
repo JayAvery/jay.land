@@ -33,9 +33,6 @@
     	</table>
     	
     	
-    	<label for="list">All converted URLs</label>
-    	
-    	<textarea id="list" class="list" name="list"></textarea>
     
         
     </main>
@@ -52,18 +49,7 @@
 		    
 		    
 		    
-		    var xmlhttp = new XMLHttpRequest();
-    		xmlhttp.onreadystatechange = function() {
-      			if (this.readyState == 4 && this.status == 200) {
-      			
 
-      			
-      			
-        			document.getElementById("test").innerHTML = this.responseText.replace(" - Google Drive", "");
-      			}
-    		};
-    		xmlhttp.open("GET", "drive-title.php?q=" + paste, true);
-    		xmlhttp.send();
 		    
 		    
 		    paste = paste.replace("open?", "uc?");
@@ -73,6 +59,19 @@
 			var table = document.getElementById('urls').getElementsByTagName('tbody')[0];
 			var row = table.insertRow(0);
 			row.innerHTML = "<td>[Getting title...]</td><td>".concat(paste, "</td>");
+			
+		    var xmlhttp = new XMLHttpRequest();
+    		xmlhttp.onreadystatechange = function() {
+      			if (this.readyState == 4 && this.status == 200) {
+      			
+
+      			
+      			
+        			document.getElementById('urls').getElementsByTagName('tbody')[0].getElementsByTagName('tr')[0].getElementsByTagName('td')[0].innerHTML = this.responseText.replace(" - Google Drive", "");
+      			}
+    		};
+    		xmlhttp.open("GET", "drive-title.php?q=" + paste, true);
+    		xmlhttp.send();
 		    
 
 		//    var list = document.getElementById('list');
