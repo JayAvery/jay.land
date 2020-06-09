@@ -51,11 +51,11 @@
 
 		    
 		    
-		  //  pasted.value = paste;
+		//    pasted.value = paste;
 		    list.value = paste.concat(list.value, "\n");
 		    
 		    
-		    navigator.clipboard.writeText(pasted);
+		    navigator.clipboard.writeText(paste);
 		    
 		  //  pasted.select();
 		  //  document.execCommand("copy");
