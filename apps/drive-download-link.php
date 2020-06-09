@@ -66,7 +66,7 @@
       			
 
       			
-      			
+      				alert("response " + this.responseText);
         			document.getElementById('urls').getElementsByTagName('tbody')[0].getElementsByTagName('tr')[0].getElementsByTagName('td')[0].innerHTML = this.responseText.replace(" - Google Drive", "");
       			}
     		};
