@@ -20,7 +20,7 @@
     	
     	<br>
     	
-    	<table id="urls">
+    	<table id="urls" style="table-layout: fixed; width: 100%">
     		<thead>
 	    		<tr>
 	    			<th>Document title</th>
