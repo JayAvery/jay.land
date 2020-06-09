@@ -82,7 +82,7 @@
 		//    list.value = paste.concat("\n", list.value);
 		    
 		    
-		    navigator.clipboard.writeText(paste);
+		    navigator.clipboard.writeText(download);
 		    
 
 		    target.select();
