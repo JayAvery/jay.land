@@ -11,25 +11,12 @@
         
     <main class="narrow">
     
-    
-    
-	    <?php
-			$urlContents = file_get_contents("http://example.com/");
-			
-			$dom = new DOMDocument();
-			@$dom->loadHTML($urlContents);
-			
-			$title = $dom->getElementsByTagName('title');
-			
-			print($title->item(0)->nodeValue . "\n"); // "Example Web Page"
-		?>
-    
+    <p id="test">blank</p>
     
     	<label for="paste-link">Paste your link here</label>
     
     	<input type="text" id="paste-link" class="paste-link" name="paste-link">
     	    	    	
-    	<textarea style="display:none" id="result" class="result" name="result"></textarea>
     	
     	<br>
     	
@@ -45,30 +32,36 @@
     	const target = document.getElementById('paste-link');
 
 		target.addEventListener('paste', (event) => {
+		    
 		    let paste = (event.clipboardData || window.clipboardData).getData('text');
-		  //  target.value = paste;
-		    
-		    
-		 //   const html = (await (await fetch(paste)).text()); // html as text
-		//	const title = new DOMParser().parseFromString(html, 'text/html').title;
-		    
 		    
 		    paste = paste.replace("open?", "uc?");
 		    paste = paste.concat("&export=download");
-		//    var pasted = document.getElementById('result');
+		    
+		    
+		    
+		    var xmlhttp = new XMLHttpRequest();
+    		xmlhttp.onreadystatechange = function() {
+      			if (this.readyState == 4 && this.status == 200) {
+        			document.getElementById("test").innerHTML = this.responseText;
+      			}
+    		};
+    		xmlhttp.open("GET", "drive-title.php?q=" + str, true);
+    		xmlhttp.send();
+		    
+		    
+
 		    var list = document.getElementById('list');
 		    
 
 		    
 		    
-		//    pasted.value = paste;
 		    list.value = paste.concat("\n", list.value);
 		    
 		    
 		    navigator.clipboard.writeText(paste);
 		    
-		  //  pasted.select();
-		  //  document.execCommand("copy");
+
 		    target.select();
 		    
 		    
