@@ -182,6 +182,11 @@ article > section:last-child {
     padding-bottom: 0px;
 }
 
+/* Edit me! */
+td {
+	padding: 10px;
+}
+
 #redirect {
     padding: 40px;
     border: none;
