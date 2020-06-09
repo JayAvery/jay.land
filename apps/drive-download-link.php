@@ -20,6 +20,19 @@
     	
     	<br>
     	
+    	<table id="urls">
+    		<thead>
+	    		<tr>
+	    			<th>Document title</th>
+	    			<th>URL</th>
+	    		</tr>
+    		</thead>
+    		<tbody>
+    		
+    		</tbody>
+    	</table>
+    	
+    	
     	<label for="list">All converted URLs</label>
     	
     	<textarea id="list" class="list" name="list"></textarea>
@@ -42,6 +55,10 @@
 		    var xmlhttp = new XMLHttpRequest();
     		xmlhttp.onreadystatechange = function() {
       			if (this.readyState == 4 && this.status == 200) {
+      			
+
+      			
+      			
         			document.getElementById("test").innerHTML = this.responseText.replace(" - Google Drive", "");
       			}
     		};
@@ -52,13 +69,18 @@
 		    paste = paste.replace("open?", "uc?");
 		    paste = paste.concat("&export=download");
 		    
-
-		    var list = document.getElementById('list');
+		    
+			var table = document.getElementById('myTable').getElementsByTagName('tbody')[0];
+			var row = table.insertRow(0);
+			row.innerHTML = "<td>[Getting title...]</td><td>".concat(paste, "</td>");
 		    
 
+		//    var list = document.getElementById('list');
+		    
+
 		    
 		    
-		    list.value = paste.concat("\n", list.value);
+		//    list.value = paste.concat("\n", list.value);
 		    
 		    
 		    navigator.clipboard.writeText(paste);
