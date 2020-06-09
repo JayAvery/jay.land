@@ -52,8 +52,8 @@
 
 		    
 		    
-		    let download = paste.replace("open?", "uc?");
-		    download = paste.concat("&export=download");
+		    let download = raw.replace("open?", "uc?");
+		    download = raw.concat("&export=download");
 		    
 		    
 			var table = document.getElementById('urls').getElementsByTagName('tbody')[0];
@@ -79,7 +79,7 @@
 
 		    
 		    
-		//    list.value = paste.concat("\n", list.value);
+		//    list.value = download.concat("\n", list.value);
 		    
 		    
 		    navigator.clipboard.writeText(download);
