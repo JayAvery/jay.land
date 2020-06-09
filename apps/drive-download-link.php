@@ -19,7 +19,7 @@
     	
     	<label for="result">Converted URL</label>
     	
-    	<textarea hidden id="result" class="result" name="result"></textarea>
+    	<textarea id="result" class="result" name="result"></textarea>
     	
     	<br>
     	
