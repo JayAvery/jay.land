@@ -46,7 +46,7 @@
 		    let raw = (event.clipboardData || window.clipboardData).getData('text');
 		    
 
-		    if (!raw.startsWith("https://drive.google.com") {
+		    if (!raw.startsWith("https://drive.google.com")) {
 		    	alert("Bad URL!");
 		    	event.preventDefault();
 		    	return;
