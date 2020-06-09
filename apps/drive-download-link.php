@@ -52,7 +52,7 @@
 		    
 		    
 		//    pasted.value = paste;
-		    list.value = paste.concat(list.value, "\n");
+		    list.value = paste.concat("\n", list.value);
 		    
 		    
 		    navigator.clipboard.writeText(paste);
