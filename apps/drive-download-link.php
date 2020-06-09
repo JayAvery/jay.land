@@ -39,12 +39,20 @@
 		  //  target.value = paste;
 		    
 		    
+		    const html = (await (await fetch(paste)).text()); // html as text
+			const title = new DOMParser().parseFromString(html, 'text/html').title;
+		    
+		    
 		    paste = paste.replace("open?", "uc?");
 		    paste = paste.concat("&export=download");
 		    var pasted = document.getElementById('result');
 		    var list = document.getElementById('list');
-		    pasted.value = paste;
-		    list.value = list.value.concat(paste, "\n");
+		    
+
+		    
+		    
+		    pasted.value = title;
+		    list.value = paste.concat(list.value, "\n");
 		    
 		    pasted.select();
 		    document.execCommand("copy");
