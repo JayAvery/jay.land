@@ -217,6 +217,8 @@ td, tr {
     line-height: 15px;
     border-bottom: 1px dashed black;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #paste-box {
