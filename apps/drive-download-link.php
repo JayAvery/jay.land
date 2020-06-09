@@ -14,11 +14,7 @@
     	<label for="paste-link">Paste your link here</label>
     
     	<input type="text" id="paste-link" class="paste-link" name="paste-link">
-    	
-    	<br>
-    	
-    	<label for="result">Converted URL</label>
-    	
+    	    	    	
     	<textarea style="display:none" id="result" class="result" name="result"></textarea>
     	
     	<br>
