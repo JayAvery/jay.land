@@ -11,6 +11,20 @@
         
     <main class="narrow">
     
+    
+    
+	    <?php
+			$urlContents = file_get_contents("http://example.com/");
+			
+			$dom = new DOMDocument();
+			@$dom->loadHTML($urlContents);
+			
+			$title = $dom->getElementsByTagName('title');
+			
+			print($title->item(0)->nodeValue . "\n"); // "Example Web Page"
+		?>
+    
+    
     	<label for="paste-link">Paste your link here</label>
     
     	<input type="text" id="paste-link" class="paste-link" name="paste-link">
