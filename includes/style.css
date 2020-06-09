@@ -184,7 +184,7 @@ article > section:last-child {
 
 /* Gross hacks: edit me! */
 td {
-	line-height: 30px;
+	line-height: 10px;
 }
 
 table {
