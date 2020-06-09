@@ -183,7 +183,7 @@ article > section:last-child {
 }
 
 /* Gross hacks: edit me! */
-td {
+td th {
 	line-height: 10px;
 }
 
