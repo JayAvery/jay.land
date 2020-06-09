@@ -70,7 +70,7 @@
 		    paste = paste.concat("&export=download");
 		    
 		    
-			var table = document.getElementById('myTable').getElementsByTagName('tbody')[0];
+			var table = document.getElementById('urls').getElementsByTagName('tbody')[0];
 			var row = table.insertRow(0);
 			row.innerHTML = "<td>[Getting title...]</td><td>".concat(paste, "</td>");
 		    
