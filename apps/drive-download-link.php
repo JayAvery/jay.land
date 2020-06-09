@@ -10,13 +10,10 @@
  <!-- Ends <head> and starts <body> -->    
         
     <main class="narrow">
+        
+    	<label for="paste-box">Paste your link here</label>
     
-    <p id="test">blank</p>
-    
-    	<label for="paste-link">Paste your link here</label>
-    
-    	<input type="text" id="paste-link" class="paste-link" name="paste-link">
-    	    	    	
+    	<input type="text" id="paste-box" class="paste-box" name="paste-box"> 	
     	
     	<br>
     	
@@ -31,68 +28,42 @@
     		
     		</tbody>
     	</table>
-    	
-    	
-    
         
     </main>
     
     <script>
     
-    	const target = document.getElementById('paste-link');
+    	const pasteBox = document.getElementById('paste-link');
 
-		target.addEventListener('paste', (event) => {
+		pasteBox.addEventListener('paste', (event) => {
+		
+			event.preventDefault();    
+		    let rawPaste = (event.clipboardData || window.clipboardData).getData('text');
 		    
-		    let raw = (event.clipboardData || window.clipboardData).getData('text');
-		    
-
-		    if (!raw.startsWith("https://drive.google.com")) {
+		    if (!rawPaste.startsWith("https://drive.google.com")) {
 		    	alert("Bad URL!");
-		    	event.preventDefault();
 		    	return;
 		    }
 		    
+		    let download = rawPaste.replace("open?", "uc?").concat("&export=download");
 		    
-
-		    
-		    
-		    let download = raw.replace("open?", "uc?");
-		    download = raw.concat("&export=download");
-		    
-		    
-			var table = document.getElementById('urls').getElementsByTagName('tbody')[0];
-			var row = table.insertRow(0);
-			row.innerHTML = "<td>[Getting title...]</td><td>".concat(download, "</td>");
+			var tableBody = document.getElementById('urls').getElementsByTagName('tbody')[0];
+			var newRow = tableBody.insertRow(0);
+			newRow.innerHTML = "<td>[Getting title...]</td><td>".concat(download, "</td>");
 			
-		    var xmlhttp = new XMLHttpRequest();
-    		xmlhttp.onreadystatechange = function() {
+		    var request = new XMLHttpRequest();
+    		request.onreadystatechange = function() {
       			if (this.readyState == 4 && this.status == 200) {
       			
-
-      			
-        			document.getElementById('urls').getElementsByTagName('tbody')[0].getElementsByTagName('tr')[0].getElementsByTagName('td')[0].innerHTML = this.responseText.replace(" - Google Drive", "");
+        			var titleCell = document.getElementById('urls').getElementsByTagName('tbody')[0].getElementsByTagName('tr')[0].getElementsByTagName('td')[0];
+        			titleCell.innerHTML = this.responseText.replace(" - Google Drive", "");
       			}
     		};
-    		xmlhttp.open("GET", "drive-title.php?q=" + raw, true);
-    		xmlhttp.send();
-		    
-
-		//    var list = document.getElementById('list');
-		    
-
-		    
-		    
-		//    list.value = download.concat("\n", list.value);
-		    
+    		request.open("GET", "api-drive-title.php?q=" + rawPaste, true);
+    		request.send();	    
 		    
 		    navigator.clipboard.writeText(download);
-		    
-
-		    target.select();
-		    
-		    
-		    
-		    event.preventDefault();
+		    pasteBox.select();
 		    
 		});
     
