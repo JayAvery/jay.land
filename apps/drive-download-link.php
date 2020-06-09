@@ -33,6 +33,10 @@
     
     <script>
     
+    	window.onbeforeunload = function(){
+  			return 'Are you sure you want to leave?';
+		};
+    
     	const pasteBox = document.getElementById('paste-box');
 
 		pasteBox.addEventListener('paste', (event) => {
