@@ -216,6 +216,7 @@ td, tr {
     padding: 20px;
     line-height: 15px;
     border-bottom: 1px dashed black;
+    white-space: nowrap;
 }
 
 #paste-box {
