@@ -43,7 +43,7 @@
 
 		target.addEventListener('paste', (event) => {
 		    
-		    let paste = (event.clipboardData || window.clipboardData).getData('text');
+		    let raw = (event.clipboardData || window.clipboardData).getData('text');
 		    
 
 		    
@@ -52,13 +52,13 @@
 
 		    
 		    
-		    paste = paste.replace("open?", "uc?");
-		    paste = paste.concat("&export=download");
+		    let download = paste.replace("open?", "uc?");
+		    download = paste.concat("&export=download");
 		    
 		    
 			var table = document.getElementById('urls').getElementsByTagName('tbody')[0];
 			var row = table.insertRow(0);
-			row.innerHTML = "<td>[Getting title...]</td><td>".concat(paste, "</td>");
+			row.innerHTML = "<td>[Getting title...]</td><td>".concat(download, "</td>");
 			
 		    var xmlhttp = new XMLHttpRequest();
     		xmlhttp.onreadystatechange = function() {
@@ -70,7 +70,7 @@
         			document.getElementById('urls').getElementsByTagName('tbody')[0].getElementsByTagName('tr')[0].getElementsByTagName('td')[0].innerHTML = this.responseText.replace(" - Google Drive", "");
       			}
     		};
-    		xmlhttp.open("GET", "drive-title.php?q=" + paste, true);
+    		xmlhttp.open("GET", "drive-title.php?q=" + raw, true);
     		xmlhttp.send();
 		    
 
