@@ -35,8 +35,7 @@
 		    
 		    let paste = (event.clipboardData || window.clipboardData).getData('text');
 		    
-		    paste = paste.replace("open?", "uc?");
-		    paste = paste.concat("&export=download");
+
 		    
 		    
 		    
@@ -46,9 +45,12 @@
         			document.getElementById("test").innerHTML = this.responseText;
       			}
     		};
-    		xmlhttp.open("GET", "drive-title.php?q=" + str, true);
+    		xmlhttp.open("GET", "drive-title.php?q=" + paste, true);
     		xmlhttp.send();
 		    
+		    
+		    paste = paste.replace("open?", "uc?");
+		    paste = paste.concat("&export=download");
 		    
 
 		    var list = document.getElementById('list');
