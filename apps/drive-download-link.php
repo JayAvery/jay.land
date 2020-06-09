@@ -19,7 +19,7 @@
     	
     	<label for="result">Converted URL</label>
     	
-    	<textarea id="result" class="result" name="result"></textarea>
+    	<textarea hidden id="result" class="result" name="result"></textarea>
     	
     	<br>
     	
@@ -39,8 +39,8 @@
 		  //  target.value = paste;
 		    
 		    
-		    const html = (await (await fetch(paste)).text()); // html as text
-			const title = new DOMParser().parseFromString(html, 'text/html').title;
+		 //   const html = (await (await fetch(paste)).text()); // html as text
+		//	const title = new DOMParser().parseFromString(html, 'text/html').title;
 		    
 		    
 		    paste = paste.replace("open?", "uc?");
@@ -51,7 +51,7 @@
 
 		    
 		    
-		    pasted.value = title;
+		    pasted.value = paste;
 		    list.value = paste.concat(list.value, "\n");
 		    
 		    pasted.select();
