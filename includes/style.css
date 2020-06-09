@@ -184,12 +184,59 @@ article > section:last-child {
 
 /* Gross hacks: edit me! */
 td, th {
-	line-height: 20px;
+	line-height: 15px;
+    background-color: #E3E3E3;
+    padding: 20px;
+    border-bottom: 1px solid black;
+
 }
 
 table {
 	table-layout: fixed;
-	width: 100%
+	width: 100%;
+    font-family: 'Muli', sans-serif;
+    border-spacing: 0px;
+    text-align: left;
+    overflow: hidden;
+}
+
+td, th:nth-child(1) {  
+width: 40%;
+}
+
+td:nth-child(1) {  
+border-right: 1px dashed black;
+}
+
+th:nth-child(1) {  
+border-right: 1px dashed black;
+}
+
+td, tr {
+    padding: 20px;
+    line-height: 15px;
+    border-bottom: 1px dashed black;
+}
+
+#paste-box {
+    width: 62%;
+    height: 15px;
+    border-radius: 5px;
+    border:none;
+    overflow: hidden;
+    padding: 4%;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    margin-left: 1%;
+    margin-bottom: 30px;
+    float: right;
+}
+
+label {
+    float: left;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    padding-top: 4%
 }
 /* End of gross hacks */
 
@@ -268,7 +315,7 @@ header h2#breadcrumb {
     font-family: 'Muli', sans-serif;
     font-weight: 800;
 }
- 
+
 #menu-label {
     float: right;
     font-family: 'Muli', sans-serif;
@@ -402,156 +449,156 @@ span.dot {
         margin-top: 30px;
         margin-bottom: 5px;
     }
-    
+
     article#redirect {
         margin-top: -30px;
         margin-bottom: 30px;
     }
-    
+
     main.wide {
         padding-left: 15px;
         padding-right: 15px;
         margin-top: 30px;
         margin-bottom: 5px;
     }
-    
+
     main.wide #introduction {
         margin-left: 15px;
         margin-right: 15px;
     }
-    
+
     .gallery figure {
         padding: 15px;
     }
-    
+
     header {
         padding: 25px 30px 30px 30px;
     }
-    
+
     article {
         padding-bottom: 25px;
         padding-top: 25px;
     }
-    
+
     section {
         padding-bottom: 25px;
         padding-top: 25px;
     }
-    
+
     section::before {
         margin-bottom: 20px;
         margin-top: -20px;
     }
-    
+
     #introduction {
         padding-bottom: 27px;
     }
-    
+
     footer {
         padding: 30px;
     }
-    
+
     #right-foot span {
         float: none;
         padding-top: 18px;
         display: block;
     }
-        
+
     .breadcrumb-expand {
         display: none;
     }
-    
+
     .breadcrumb-dots {
         display: inline;
     }
-    
+
     #menu:checked ~ .breadcrumb-expand {
         display: inline;
     }
-    
+
     #menu:checked ~ .breadcrumb-dots {
         display: none;
     }
-    
+
     #email-icon {
         display: none;
     }
-    
+
     #menu-label {
         display: block;
     }
-    
+
     ol.spaced-list > li::before {
         padding-right: 0;
         margin-left: -22px;
     }
-    
+
     ul.spaced-list > li::before {
         padding-right: 5px;
         margin-left: -15px;
     }
-    
+
     ul.spaced-list li {
         padding-left: 12px;
         margin-top: 3px;
     }
-    
+
     ol.spaced-list li {
         margin-top: 3px;
     }
-    
+
     ol.spaced-list, ul.spaced-list {
         padding-left: 2px;
     }
-    
+
     ol, ul {
         margin-top: 10px;
     }
-    
+
     img#cc-icon {
         display: block;
         float: none;
         padding-top: 10px;
     }
-    
+
     article#creative-commons {
         padding-top: 8px;
     }
-    
+
     p#cc-text {
         width: 100%;
     }
-    
+
     img.gallery-thumb {
         margin-bottom: 10px;
     }
-    
+
     .sl-wrapper .sl-navigation button {
         display: none;
     }
-    
+
     .sl-wrapper .sl-counter {
         top: 30px;
         left: 30px;
     }
-    
+
     .sl-wrapper .sl-close {
         top: 30px;
         right: 30px;
     }
-    
+
     .gallery a.lightbox:hover {
         opacity: 1;
     }
-    
+
     a:hover {
         color: black;
     }
-    
+
     h2 a:hover {
         color:black;
     }
-    
+
     a.article:hover h4 {
         color: black;
     }
@@ -564,7 +611,7 @@ span.dot {
 }
 
 @media only screen and (max-width: 768px) {
-    
+
 }
 
 @media only screen and (max-width: 768px) and (min-width: 501px) {
