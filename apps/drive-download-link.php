@@ -45,17 +45,20 @@
 		    
 		    paste = paste.replace("open?", "uc?");
 		    paste = paste.concat("&export=download");
-		    var pasted = document.getElementById('result');
+		//    var pasted = document.getElementById('result');
 		    var list = document.getElementById('list');
 		    
 
 		    
 		    
-		    pasted.value = paste;
+		  //  pasted.value = paste;
 		    list.value = paste.concat(list.value, "\n");
 		    
-		    pasted.select();
-		    document.execCommand("copy");
+		    
+		    navigator.clipboard.writeText(pasted);
+		    
+		  //  pasted.select();
+		  //  document.execCommand("copy");
 		    target.select();
 		    
 		    
